@@ -1,0 +1,3 @@
+Error in parse_args(opt_parser) : 
+  Error in getopt(spec = spec, opt = args) : short flag "p" is ambiguous
+Execution halted

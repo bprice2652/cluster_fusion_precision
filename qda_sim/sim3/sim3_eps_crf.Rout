@@ -1,0 +1,164 @@
+
+R version 3.5.1 (2018-07-02) -- "Feather Spray"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> 
+> args <- commandArgs(trailingOnly = TRUE)
+> for(i in 1:length(args)){
++   eval(parse(text=args[[i]]))
++ }
+> 
+> print(p)
+[1] 50
+> print(r4)
+[1] 0.5
+> #out_name<-paste("crf_1_eps",eps,"p",p,"q1",q1,"q2",q2,".Rdata",sep="_")
+> 
+> 
+> source("~/Dropbox/cluster_inv_cov/r_code/cluster_da.R")
+Loading required package: mvtnorm
+Loading required package: igraph
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+> 
+> 
+> out_name<-paste("crf_3_p",p,"r4",r4,".Rdata",sep="_")
+> setwd("~/Dropbox/cluster_inv_cov_sims/sim3")
+> 
+> 
+> library(parallel)
+> library(cluster)
+> library(RidgeFusion)
+> library(JGL)
+> library(compiler)
+> 
+> 
+> evs<- sapply(1:p,function(m){(p-m+1)/p})
+> mp<-rep(1,p)
+> mp[1:6]=q1*100
+> mp[7:11]=q1*10
+> mp2=mp
+> mp2[1:6]=(q1*100)-1
+> mp2[7:11]=(q1*10)-1
+> 
+> 
+> 
+> mean1=20*log(p)/p
+> mean2=-10*log(p)/p
+> mean3=10*log(p)/p
+> mean4=-20*log(p)/p
+> set.seed(616)
+> library(mvtnorm)
+> am=vector("list",100)
+> best_mod=vector("list",100)
+> prd<-NULL
+> prdT=NULL
+> prd_like=NULL
+> prdT_like=NULL
+> S1=matrix(0,p,p)
+> S2=S1
+> S3=S1
+> S4=S1
+> 
+> 
+> 
+> for(j in 1:100){
++ print(j)
++ Eig<-matrix(rnorm(100*p),100,p)
++ Eig=eigen(t(Eig)%*%Eig)$vec
++ S1=Eig%*%(diag(q1*mp))%*%t(Eig)  
++ S2=Eig%*%(diag(q1*mp2))%*%t(Eig)
++ #S3=Eig%*%(diag(q2*mp))%*%t(Eig)
++ #S4=Eig%*%(diag(q2*mp2))%*%t(Eig)
++ for(l in 1:p){
++   for(k in 1:p){
++     if(abs(k-l)<=1){
++       S3[l,k]=.45^(abs(l-k))
++       S4[l,k]=r4^(abs(l-k))
++     }
++     
++   }
++ }
++ 
++ 
++ Omeg=list(solve(S1),solve(S2),solve(S3),solve(S4))
++ Means=list(mean1,mean2,mean3,mean4)
++ 
++ X<-list()
++ X[[1]]=rmvnorm(25,mean=rep(mean1,p),S1)
++ X[[2]]=rmvnorm(25,mean=rep(mean2,p),S2)
++ X[[3]]=rmvnorm(25,mean=rep(mean3,p),S3)
++ X[[4]]=rmvnorm(25,mean=rep(mean4,p),S4)
++ 
++ 
++ fold=vector("list",5)
++ samp=sample(1:25)
++ for(k in 1:5){
++   fold[[k]]=lapply(vector("list",4),function(m){samp[((k-1)*5+1):(k*5)]})
++ }
++ 
++ 
++ am[[j]]<-clust_inv_cov_cv(X = X,lambda1 = 10^seq(-3,1,.5),lambda2=10^seq(5,7,.5),Q_set=c(2,3),method="ridgeFusion",Fold=fold,ncores_Q = 3,ncores_cv = 5)
++ 
++ X_test=list()
++ X_test[[1]]=rmvnorm(500,mean=rep(mean1,p),S1)
++ X_test[[2]]=rmvnorm(500,mean=rep(mean2,p),S2)
++ X_test[[3]]=rmvnorm(500,mean=rep(mean3,p),S3)
++ X_test[[4]]=rmvnorm(500,mean=rep(mean4,p),S4)
++ X_test1=Reduce("rbind",X_test)
++ 
++ best_mod[[j]]<-clust_qda(X,lambda1=am[[j]]$best_triplet[2],lambda2=am[[j]]$best_triplet[2],Q=am[[j]]$best_triplet[1],method = "ridgeFusion")
++ preds1=predict.RidgeFusedQDA(best_mod[[j]],newdata = X_test1)
++ prd=c(prd,sum(preds1$Predicted==c(rep(1,500),rep(2,500),rep(3,500),rep(4,500))))
++ #prd_like=c(prd_like, logLike.val(best_mod[[j]],newdata=X_tests,1,response=c(rep(1,500),rep(2,500),rep(3,500),rep(4,500))))
++ #table(preds1$Predicted,c(rep(1,500),rep(2,500),rep(3,500),rep(4,500)))
++ 
++ newdata=X_test1
++ K=4
++ n=dim(newdata)[1]
++ Result=matrix(nrow=n,ncol=K)
++ Class=rep(0,n)
++ for(i in 1:n){
++   for(k in 1:K){
++     Result[i,k]=-.5*(t(newdata[i,]-mean(X[[k]]))%*%Omeg[[k]]%*%(newdata[i,]-mean(X[[k]]))-determinant(Omeg[[k]])$mod)+log(.25)
++   }
++   Class[i]=which(Result[i,]==max(Result[i,]))	
++   
++ }
++ prdT=c(prdT,sum(Class==c(rep(1,500),rep(2,500),rep(3,500),rep(4,500))))
++ }
+[1] 1
+[1] 2
+[[1] 3[[1] 4[[1] 5[[1] 6[[1] 7[[1] 8[[1] 9[[1] 10[[1] 11[[1] 12[[1] 13[[1] 14[[1] 15[[1] 16[[1] 17[[1] 18[1] 19
+[1] 20
+[[1] 21[[1] 22[[1] 23[[1] 24[[1] 25[[1] 26[[1] 27[[1] 28[[1] 29[[1] 30[[1] 31[[1] 32[[1] 33[[1] 34[[1] 35[[1] 36[[1] 37[[1] 38[[1] 39[[1] 40[[1] 41[[1] 42[[1] 43[[1] 44[[1] 45[[1] 46[[1] 47[[1] 48[[1] 49[[1] 50[[1] 51[[1] 52[[1] 53[[1] 54[[1] 55[[1] 56[[1] 57[[1] 58[[1] 59[1] 60
+[[1] 61[[1] 62[[1] 63[[1] 64[[1] 65[[1] 66[[1] 67[[1] 68[[1] 69[[1] 70[[1] 71[[1] 72[[1] 73[[1] 74[[1] 75[[1] 76[[1] 77[[1] 78[[1] 79[[1] 80[[1] 81[[1] 82[[1] 83[[1] 84[[1] 85[[1] 86[[1] 87[[1] 88[[1] 89[[1] 90[[1] 91[[1] 92[[1] 93[[1] 94[[1] 95[[1] 96[[1] 97[[1] 98[[1] 99[[1] 100>> 
+> save.image(out_name)
+> 
+> proc.time()
+      user     system    elapsed 
+213183.654   9613.212  41315.890 

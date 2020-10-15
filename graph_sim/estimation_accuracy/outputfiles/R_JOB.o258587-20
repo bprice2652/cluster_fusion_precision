@@ -1,0 +1,6129 @@
+
+Prologue Args:
+Job ID: 258587[20].trcis002.hpc.wvu.edu
+User ID: bprice5
+Group ID: its-rc-thorny
+
+_=/bin/env
+LANG=en_US.utf8
+PATH=/bin:/usr/bin
+PBS_MSHOST=tsacs001.hpc.wvu.edu
+PBS_NODEFILE=/var/spool/torque/aux//258587[20].trcis002.hpc.wvu.edu
+PBS_NODENUM=0
+PBS_NP=40
+PBS_NUM_NODES=1
+PBS_NUM_PPN=40
+PBS_O_WORKDIR=/gpfs20/scratch/bprice5/graph_sim
+PBS_RESOURCE_NODES=1:ppn=40
+PWD=/gpfs20/users/bprice5
+SHLVL=1
+tsacs001.hpc.wvu.edu
+Wed Jun 17 17:38:35 EDT 2020
+-d 100 -l 0.001 -m LASICH-2 -s 4
+Loading required package: mvtnorm
+Loading required package: igraph
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+Loading required package: blockmodels
+Loading required package: Rcpp
+Loading required package: digest
+
+----------------------------------------------------------------------
+
+      'simone' package version 1.0-3
+      SIMoNe page (http://julien.cremeriefamily.info/simone.html)
+
+----------------------------------------------------------------------
+Note that versions >= 1.0-0 are not compatible with versions < 1.0.0. 
+----------------------------------------------------------------------
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: zoo
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+Loading required package: zoo
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+
+Attaching package: ‘zoo’
+
+Loading required package: lattice
+Loading required package: Matrix
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: zoo
+Loading required package: quadprog
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+Loading required package: zoo
+Loading required package: Matrix
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+Loading required package: glasso
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+Loading required package: glasso
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: zoo
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+Loading required package: glasso
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+Loading required package: quadprog
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+Loading required package: glasso
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Error ra:  0.004390446  rb:  0.0009877267  rc:  0.001661473  s:  26.82787 
+Iteration:  1000 
+Error ra:  0.004371228  rb:  0.0009566538  rc:  0.001657873  s:  27.9645 
+Iteration:  1000 
+Error ra:  0.004456932  rb:  0.0009743946  rc:  0.001688299  s:  28.73144 
+Iteration:  1000 
+Error ra:  0.004436726  rb:  0.0009697008  rc:  0.001680809  s:  28.54305 
+Iteration:  1000 
+Error ra:  0.004455534  rb:  0.0009740746  rc:  0.001687788  s:  28.71968 
+Iteration:  1000 
+Error ra:  0.003804622  rb:  0.0009013735  rc:  0.001413302  s:  21.81895 
+Iteration:  1000 
+Error ra:  0.00444726  rb:  0.0009730966  rc:  0.001685037  s:  28.61557 
+Iteration:  1000 
+Error ra:  0.004454175  rb:  0.0009737631  rc:  0.001687292  s:  28.70825 
+Iteration:  1000 
+Error ra:  0.003005469  rb:  0.0008378161  rc:  0.001062013  s:  14.25162 
+Iteration:  1000 
+Error ra:  0.00363059  rb:  0.0009546161  rc:  0.001317358  s:  18.56846 
+Iteration:  1000 
+Error ra:  0.004467701  rb:  0.001017663  rc:  0.001690184  s:  27.5156 
+Iteration:  1000 
+Error ra:  5.75714e-07  rb:  5.849132e-07  rc:  5.436194e-08  s:  9.165181e-06 
+Iteration:  121 
+Error ra:  0.004449482  rb:  0.0009748286  rc:  0.001686724  s:  28.66135 
+Iteration:  1000 
+Error ra:  0.004457489  rb:  0.000974522  rc:  0.001688502  s:  28.73612 
+Iteration:  1000 
+Error ra:  0.004298077  rb:  0.001042623  rc:  0.001634066  s:  24.18169 
+Iteration:  1000 
+Error ra:  0.004457274  rb:  0.0009744727  rc:  0.001688424  s:  28.73431 
+Iteration:  1000 
+Error ra:  0.004259657  rb:  0.0009730421  rc:  0.001598746  s:  25.75866 
+Iteration:  1000 
+Error ra:  0.004456392  rb:  0.0009742709  rc:  0.001688101  s:  28.72689 
+Iteration:  1000 
+Error ra:  0.004445447  rb:  0.0009855723  rc:  0.001686834  s:  28.42842 
+Iteration:  1000 
+Error ra:  0.004467244  rb:  0.0009842082  rc:  0.001690322  s:  28.24729 
+Iteration:  1000 
+Error ra:  0.00445202  rb:  0.0009732682  rc:  0.001686505  s:  28.69013 
+Iteration:  1000 
+Error ra:  9.025281e-07  rb:  9.337381e-07  rc:  1.131376e-07  s:  9.357368e-06 
+Iteration:  188 
+Error ra:  4.714889e-07  rb:  4.722576e-07  rc:  4.260494e-08  s:  9.108954e-06 
+Iteration:  109 
+Error ra:  4.714889e-07  rb:  4.722576e-07  rc:  4.260494e-08  s:  9.108954e-06 
+Iteration:  109 
+Error ra:  4.714889e-07  rb:  4.722576e-07  rc:  4.260494e-08  s:  9.108954e-06 
+Iteration:  109 
+Error ra:  5.184462e-07  rb:  5.195752e-07  rc:  4.756419e-08  s:  9.996788e-06 
+Iteration:  109 
+Error ra:  4.714889e-07  rb:  4.722576e-07  rc:  4.260494e-08  s:  9.108954e-06 
+Iteration:  109 
+Error ra:  8.399944e-07  rb:  8.688504e-07  rc:  7.309017e-08  s:  9.986895e-06 
+Iteration:  146 
+Error ra:  4.681244e-07  rb:  4.537659e-07  rc:  4.758197e-08  s:  9.422414e-06 
+Iteration:  198 
+Error ra:  1.211008e-07  rb:  9.754347e-08  rc:  1.88469e-08  s:  9.586929e-06 
+Iteration:  239 
+Error ra:  7.133152e-08  rb:  5.167509e-08  rc:  1.365435e-08  s:  9.906557e-06 
+Iteration:  327 
+Error ra:  4.090618e-08  rb:  2.563802e-08  rc:  9.519578e-09  s:  9.666122e-06 
+Iteration:  456 
+Error ra:  2.616113e-08  rb:  1.459097e-08  rc:  6.948604e-09  s:  9.958855e-06 
+Iteration:  645 
+Error ra:  1.704743e-08  rb:  8.529787e-09  rc:  4.94915e-09  s:  9.940208e-06 
+Iteration:  887 
+Error ra:  0.0006217212  rb:  0.0002056603  rc:  0.0002088872  s:  1.724282 
+Iteration:  1000 
+Error ra:  2.386847e-07  rb:  1.039506e-07  rc:  7.031302e-08  s:  0.0002154084 
+Iteration:  1000 
+Error ra:  0.001391456  rb:  0.0004339368  rc:  0.0004738927  s:  4.860686 
+Iteration:  1000 
+Error ra:  1.257886e-05  rb:  4.918315e-06  rc:  3.986059e-06  s:  0.01715774 
+Iteration:  1000 
+Error ra:  0.0001366335  rb:  4.934019e-05  rc:  4.47731e-05  s:  0.2702917 
+Iteration:  1000 
+Error ra:  0.002281584  rb:  0.0006676488  rc:  0.0007964175  s:  9.538493 
+Iteration:  1000 
+Error ra:  4.714889e-07  rb:  4.722576e-07  rc:  4.260494e-08  s:  9.108954e-06 
+Iteration:  109 
+[1] 26
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: quadprog
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+Loading required package: lattice
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+
+Attaching package: ‘zoo’
+
+Loading required package: quadprog
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: lattice
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+Loading required package: glasso
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+Loading required package: glasso
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: Matrix
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Error ra:  0.005579017  rb:  0.001201076  rc:  0.002140118  s:  43.73877 
+Iteration:  1000 
+Error ra:  0.005579619  rb:  0.001224519  rc:  0.002153278  s:  43.5265 
+Iteration:  1000 
+Error ra:  0.005578424  rb:  0.001201951  rc:  0.002139956  s:  43.69707 
+Iteration:  1000 
+Error ra:  0.005584144  rb:  0.001201932  rc:  0.002141716  s:  43.79219 
+Iteration:  1000 
+Error ra:  0.005581544  rb:  0.001201385  rc:  0.002140839  s:  43.7651 
+Iteration:  1000 
+Error ra:  0.005587784  rb:  0.001259438  rc:  0.002145892  s:  41.0402 
+Iteration:  1000 
+Error ra:  0.005576088  rb:  0.001206726  rc:  0.002141575  s:  43.63112 
+Iteration:  1000 
+Error ra:  0.005533727  rb:  0.001328499  rc:  0.002148479  s:  39.49589 
+Iteration:  1000 
+Error ra:  0.004665054  rb:  0.001185617  rc:  0.001724729  s:  28.81653 
+Iteration:  1000 
+Error ra:  0.00535328  rb:  0.001332599  rc:  0.002012838  s:  33.641 
+Iteration:  1000 
+Error ra:  0.005544648  rb:  0.001193232  rc:  0.00212719  s:  43.36174 
+Iteration:  1000 
+Error ra:  0.005584776  rb:  0.001202072  rc:  0.002141945  s:  43.7988 
+Iteration:  1000 
+Error ra:  0.003942632  rb:  0.001086472  rc:  0.001456544  s:  22.35401 
+Iteration:  1000 
+Error ra:  0.005585072  rb:  0.0012026  rc:  0.002142274  s:  43.80296 
+Iteration:  1000 
+Error ra:  0.005564058  rb:  0.001212989  rc:  0.002133486  s:  43.099 
+Iteration:  1000 
+Error ra:  0.005530541  rb:  0.001200105  rc:  0.0021214  s:  42.68611 
+Iteration:  1000 
+Error ra:  0.00558312  rb:  0.001201718  rc:  0.00214137  s:  43.78171 
+Iteration:  1000 
+Error ra:  0.005549457  rb:  0.001279909  rc:  0.002158449  s:  42.03944 
+Iteration:  1000 
+Error ra:  0.005411212  rb:  0.001284549  rc:  0.002063237  s:  37.10118 
+Iteration:  1000 
+Error ra:  0.005585359  rb:  0.001202461  rc:  0.00214228  s:  43.80559 
+Iteration:  1000 
+Error ra:  4.645849e-07  rb:  4.645765e-07  rc:  4.600274e-08  s:  9.443717e-06 
+Iteration:  108 
+Error ra:  5.729252e-07  rb:  5.781877e-07  rc:  4.88134e-08  s:  9.156572e-06 
+Iteration:  123 
+Error ra:  4.156237e-07  rb:  4.15666e-07  rc:  4.088051e-08  s:  8.394394e-06 
+Iteration:  109 
+Error ra:  4.645849e-07  rb:  4.645765e-07  rc:  4.600274e-08  s:  9.443717e-06 
+Iteration:  108 
+Error ra:  4.645849e-07  rb:  4.645765e-07  rc:  4.600274e-08  s:  9.443717e-06 
+Iteration:  108 
+Error ra:  4.645849e-07  rb:  4.645765e-07  rc:  4.600274e-08  s:  9.443717e-06 
+Iteration:  108 
+Error ra:  8.41278e-07  rb:  8.660066e-07  rc:  7.584008e-08  s:  9.427474e-06 
+Iteration:  156 
+Error ra:  1.572103e-07  rb:  1.252909e-07  rc:  2.125376e-08  s:  9.792692e-06 
+Iteration:  201 
+Error ra:  5.03383e-07  rb:  4.808853e-07  rc:  4.356554e-08  s:  9.565961e-06 
+Iteration:  193 
+Error ra:  8.869255e-07  rb:  8.969123e-07  rc:  1.250661e-07  s:  9.553551e-06 
+Iteration:  199 
+Error ra:  7.392292e-08  rb:  5.338681e-08  rc:  1.168945e-08  s:  9.498437e-06 
+Iteration:  298 
+Error ra:  4.294684e-08  rb:  2.720132e-08  rc:  8.596556e-09  s:  9.710283e-06 
+Iteration:  429 
+Error ra:  2.581699e-08  rb:  1.416033e-08  rc:  6.077169e-09  s:  9.760092e-06 
+Iteration:  611 
+Error ra:  1.583294e-08  rb:  7.420337e-09  rc:  4.146668e-09  s:  9.939328e-06 
+Iteration:  897 
+Error ra:  0.0002061322  rb:  7.716111e-05  rc:  6.558146e-05  s:  0.4275289 
+Iteration:  1000 
+Error ra:  3.46707e-07  rb:  1.456868e-07  rc:  1.015216e-07  s:  0.0003189048 
+Iteration:  1000 
+Error ra:  0.001968314  rb:  0.0006168025  rc:  0.00067634  s:  7.871465 
+Iteration:  1000 
+Error ra:  0.0008629615  rb:  0.0002987992  rc:  0.000284053  s:  2.470418 
+Iteration:  1000 
+Error ra:  1.894343e-05  rb:  7.384353e-06  rc:  5.924621e-06  s:  0.02731437 
+Iteration:  1000 
+Error ra:  0.003226582  rb:  0.0009785686  rc:  0.001118594  s:  14.6561 
+Iteration:  1000 
+Error ra:  4.645849e-07  rb:  4.645765e-07  rc:  4.600274e-08  s:  9.443717e-06 
+Iteration:  108 
+[1] 27
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+Loading required package: zoo
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: Matrix
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+Loading required package: Matrix
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Error ra:  0.004938242  rb:  0.00107338  rc:  0.001860299  s:  33.67142 
+Iteration:  1000 
+Error ra:  0.00457152  rb:  0.001191739  rc:  0.001735827  s:  25.34921 
+Iteration:  1000 
+Error ra:  0.004938812  rb:  0.001073452  rc:  0.001860487  s:  33.6771 
+Iteration:  1000 
+Error ra:  0.004964246  rb:  0.001105104  rc:  0.001885683  s:  33.08317 
+Iteration:  1000 
+Error ra:  0.004993657  rb:  0.00110554  rc:  0.001886068  s:  33.30125 
+Iteration:  1000 
+Error ra:  0.004959789  rb:  0.001118657  rc:  0.001883947  s:  33.44241 
+Iteration:  1000 
+Error ra:  0.00493414  rb:  0.001074161  rc:  0.001858776  s:  33.58969 
+Iteration:  1000 
+Error ra:  0.004940129  rb:  0.001151122  rc:  0.001865978  s:  30.05384 
+Iteration:  1000 
+Error ra:  0.004937433  rb:  0.001073315  rc:  0.001860004  s:  33.66242 
+Iteration:  1000 
+Error ra:  0.004939427  rb:  0.001073607  rc:  0.001860702  s:  33.68295 
+Iteration:  1000 
+Error ra:  0.004934789  rb:  0.001075488  rc:  0.001860056  s:  33.53288 
+Iteration:  1000 
+Error ra:  0.004939181  rb:  0.001073542  rc:  0.001860611  s:  33.68069 
+Iteration:  1000 
+Error ra:  0.003336262  rb:  0.0009237803  rc:  0.001188368  s:  16.64203 
+Iteration:  1000 
+Error ra:  0.005042742  rb:  0.001184389  rc:  0.001913738  s:  31.36026 
+Iteration:  1000 
+Error ra:  0.004965124  rb:  0.001109942  rc:  0.001886246  s:  32.74198 
+Iteration:  1000 
+Error ra:  0.004959769  rb:  0.001149204  rc:  0.001892713  s:  32.19585 
+Iteration:  1000 
+Error ra:  0.004937093  rb:  0.001073766  rc:  0.001859703  s:  33.64812 
+Iteration:  1000 
+Error ra:  0.004935797  rb:  0.001077442  rc:  0.001861704  s:  33.62541 
+Iteration:  1000 
+Error ra:  0.004714045  rb:  0.001127852  rc:  0.001736486  s:  28.09856 
+Iteration:  1000 
+Error ra:  0.004085109  rb:  0.001072449  rc:  0.001464008  s:  21.50503 
+Iteration:  1000 
+Error ra:  5.057717e-07  rb:  5.060438e-07  rc:  4.601972e-08  s:  9.576305e-06 
+Iteration:  110 
+Error ra:  4.664041e-07  rb:  4.665785e-07  rc:  4.125857e-08  s:  8.651708e-06 
+Iteration:  111 
+Error ra:  5.057717e-07  rb:  5.060438e-07  rc:  4.601972e-08  s:  9.576305e-06 
+Iteration:  110 
+Error ra:  5.057717e-07  rb:  5.060438e-07  rc:  4.601972e-08  s:  9.576305e-06 
+Iteration:  110 
+Error ra:  5.057717e-07  rb:  5.060438e-07  rc:  4.601972e-08  s:  9.576305e-06 
+Iteration:  110 
+Error ra:  1.596847e-07  rb:  1.266753e-07  rc:  2.367358e-08  s:  9.261798e-06 
+Iteration:  177 
+Error ra:  4.939953e-07  rb:  4.84235e-07  rc:  4.729585e-08  s:  9.332143e-06 
+Iteration:  183 
+Error ra:  5.530417e-07  rb:  5.579749e-07  rc:  4.763162e-08  s:  9.071008e-06 
+Iteration:  119 
+Error ra:  7.316652e-07  rb:  7.492375e-07  rc:  6.548584e-08  s:  9.016095e-06 
+Iteration:  143 
+Error ra:  8.360749e-07  rb:  8.343805e-07  rc:  9.36388e-08  s:  9.932468e-06 
+Iteration:  178 
+Error ra:  8.470473e-08  rb:  5.845749e-08  rc:  1.768464e-08  s:  9.953722e-06 
+Iteration:  248 
+Error ra:  4.602515e-08  rb:  2.559963e-08  rc:  1.176874e-08  s:  9.602857e-06 
+Iteration:  349 
+Error ra:  2.783798e-08  rb:  1.364811e-08  rc:  7.832078e-09  s:  9.75584e-06 
+Iteration:  528 
+Error ra:  1.779979e-08  rb:  7.854328e-09  rc:  5.39568e-09  s:  9.98162e-06 
+Iteration:  790 
+Error ra:  0.0001633855  rb:  5.857485e-05  rc:  5.32834e-05  s:  0.3266805 
+Iteration:  1000 
+Error ra:  0.0006991325  rb:  0.0002391638  rc:  0.0002367744  s:  1.897301 
+Iteration:  1000 
+Error ra:  1.303024e-05  rb:  5.041457e-06  rc:  4.114221e-06  s:  0.01748513 
+Iteration:  1000 
+Error ra:  0.002422595  rb:  0.0006864945  rc:  0.0008587319  s:  10.88536 
+Iteration:  1000 
+Error ra:  1.740836e-07  rb:  7.00668e-08  rc:  5.621406e-08  s:  0.0001514716 
+Iteration:  1000 
+Error ra:  0.001551692  rb:  0.0005010141  rc:  0.000516308  s:  5.415588 
+Iteration:  1000 
+Error ra:  5.057717e-07  rb:  5.060438e-07  rc:  4.601972e-08  s:  9.576305e-06 
+Iteration:  110 
+[1] 28
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+Loading required package: lattice
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+
+Attaching package: ‘zoo’
+
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: zoo
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+
+Attaching package: ‘zoo’
+
+Loading required package: quadprog
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+
+Attaching package: ‘zoo’
+
+
+Attaching package: ‘zoo’
+
+
+Attaching package: ‘zoo’
+
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: quadprog
+Loading required package: quadprog
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Error ra:  0.004514127  rb:  0.001064053  rc:  0.001654038  s:  28.47483 
+Iteration:  1000 
+Error ra:  0.004852858  rb:  0.001155329  rc:  0.00180552  s:  31.49213 
+Iteration:  1000 
+Error ra:  0.005091117  rb:  0.001092948  rc:  0.001916798  s:  37.13135 
+Iteration:  1000 
+Error ra:  0.005020633  rb:  0.001089447  rc:  0.001889973  s:  35.68543 
+Iteration:  1000 
+Error ra:  0.005157577  rb:  0.00117924  rc:  0.001922727  s:  33.45138 
+Iteration:  1000 
+Error ra:  0.005097795  rb:  0.001094227  rc:  0.001919371  s:  37.21441 
+Iteration:  1000 
+Error ra:  0.004961662  rb:  0.0010813  rc:  0.001862461  s:  34.81987 
+Iteration:  1000 
+Error ra:  0.005098355  rb:  0.001094362  rc:  0.001919592  s:  37.22019 
+Iteration:  1000 
+Error ra:  0.005085428  rb:  0.00111393  rc:  0.001924758  s:  36.98271 
+Iteration:  1000 
+Error ra:  0.00509059  rb:  0.00109354  rc:  0.001917572  s:  37.07377 
+Iteration:  1000 
+Error ra:  0.005066622  rb:  0.001098304  rc:  0.001913481  s:  36.83927 
+Iteration:  1000 
+Error ra:  0.005042418  rb:  0.001083493  rc:  0.001898005  s:  36.61198 
+Iteration:  1000 
+Error ra:  0.00354917  rb:  0.0009573835  rc:  0.001248366  s:  18.73656 
+Iteration:  1000 
+Error ra:  0.005093548  rb:  0.001093281  rc:  0.001917837  s:  37.16763 
+Iteration:  1000 
+Error ra:  4.944576e-07  rb:  4.955491e-07  rc:  4.820321e-08  s:  9.486533e-06 
+Iteration:  112 
+Error ra:  0.005095663  rb:  0.00109414  rc:  0.001918547  s:  37.19071 
+Iteration:  1000 
+Error ra:  0.005096938  rb:  0.001094018  rc:  0.001919029  s:  37.20525 
+Iteration:  1000 
+Error ra:  0.004516403  rb:  0.001173946  rc:  0.001639458  s:  24.31048 
+Iteration:  1000 
+Error ra:  0.005056251  rb:  0.001096717  rc:  0.001906149  s:  36.25035 
+Iteration:  1000 
+Error ra:  0.005098711  rb:  0.001094446  rc:  0.001919732  s:  37.22384 
+Iteration:  1000 
+Error ra:  4.944576e-07  rb:  4.955491e-07  rc:  4.820321e-08  s:  9.486533e-06 
+Iteration:  112 
+Error ra:  0.005098842  rb:  0.001094782  rc:  0.001919974  s:  37.22613 
+Iteration:  1000 
+Error ra:  5.081066e-07  rb:  5.092809e-07  rc:  4.977526e-08  s:  9.73789e-06 
+Iteration:  112 
+Error ra:  5.800462e-07  rb:  5.851779e-07  rc:  4.524546e-08  s:  9.247378e-06 
+Iteration:  123 
+Error ra:  4.944576e-07  rb:  4.955491e-07  rc:  4.820321e-08  s:  9.486533e-06 
+Iteration:  112 
+Error ra:  4.944576e-07  rb:  4.955491e-07  rc:  4.820321e-08  s:  9.486533e-06 
+Iteration:  112 
+Error ra:  7.669554e-07  rb:  7.768025e-07  rc:  5.446954e-08  s:  9.24691e-06 
+Iteration:  149 
+Error ra:  7.947985e-07  rb:  7.887082e-07  rc:  9.110142e-08  s:  9.705794e-06 
+Iteration:  178 
+Error ra:  1.659254e-07  rb:  1.322574e-07  rc:  2.258015e-08  s:  9.879859e-06 
+Iteration:  186 
+Error ra:  8.198474e-08  rb:  5.793384e-08  rc:  1.445986e-08  s:  9.975068e-06 
+Iteration:  262 
+Error ra:  5.162561e-07  rb:  5.043296e-07  rc:  4.617565e-08  s:  9.595259e-06 
+Iteration:  184 
+Error ra:  4.599128e-08  rb:  2.845625e-08  rc:  9.464085e-09  s:  9.862869e-06 
+Iteration:  380 
+Error ra:  2.721516e-08  rb:  1.408733e-08  rc:  6.72136e-09  s:  9.770251e-06 
+Iteration:  564 
+Error ra:  1.772824e-08  rb:  7.988879e-09  rc:  4.933091e-09  s:  9.925947e-06 
+Iteration:  814 
+Error ra:  1.362471e-05  rb:  5.232727e-06  rc:  4.169912e-06  s:  0.01836317 
+Iteration:  1000 
+Error ra:  0.0001729759  rb:  6.297451e-05  rc:  5.348397e-05  s:  0.3469587 
+Iteration:  1000 
+Error ra:  2.065074e-07  rb:  8.451264e-08  rc:  6.13802e-08  s:  0.0001811461 
+Iteration:  1000 
+Error ra:  0.001801216  rb:  0.0005686896  rc:  0.0005936379  s:  6.745463 
+Iteration:  1000 
+Error ra:  0.0007783339  rb:  0.0002636606  rc:  0.0002487141  s:  2.248906 
+Iteration:  1000 
+Error ra:  0.002879355  rb:  0.0008782082  rc:  0.0009687318  s:  12.47647 
+Iteration:  1000 
+Error ra:  4.944576e-07  rb:  4.955491e-07  rc:  4.820321e-08  s:  9.486533e-06 
+Iteration:  112 
+[1] 29
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+Loading required package: zoo
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: glasso
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: glasso
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: Matrix
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: glasso
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+Loading required package: Matrix
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Error ra:  0.005475905  rb:  0.001232577  rc:  0.002096063  s:  39.75843 
+Iteration:  1000 
+Error ra:  0.005403641  rb:  0.001173295  rc:  0.002070357  s:  40.2305 
+Iteration:  1000 
+Error ra:  0.005402705  rb:  0.001193064  rc:  0.00207562  s:  39.98999 
+Iteration:  1000 
+Error ra:  0.005393738  rb:  0.00116675  rc:  0.002066904  s:  40.28991 
+Iteration:  1000 
+Error ra:  0.003831312  rb:  0.001024244  rc:  0.00139287  s:  21.45173 
+Iteration:  1000 
+Error ra:  0.005352471  rb:  0.001167356  rc:  0.002044879  s:  39.3973 
+Iteration:  1000 
+Error ra:  0.005399297  rb:  0.001169659  rc:  0.002068938  s:  40.37516 
+Iteration:  1000 
+Error ra:  0.005399597  rb:  0.001168176  rc:  0.002068443  s:  40.38485 
+Iteration:  1000 
+Error ra:  0.005399474  rb:  0.001168264  rc:  0.002068408  s:  40.3811 
+Iteration:  1000 
+Error ra:  0.005399763  rb:  0.001168184  rc:  0.00206849  s:  40.38722 
+Iteration:  1000 
+Error ra:  0.005398526  rb:  0.001171064  rc:  0.002069498  s:  40.36576 
+Iteration:  1000 
+Error ra:  0.005395028  rb:  0.001167083  rc:  0.002066951  s:  40.32736 
+Iteration:  1000 
+Error ra:  0.005399493  rb:  0.001174659  rc:  0.002070413  s:  40.13805 
+Iteration:  1000 
+Error ra:  0.005185537  rb:  0.001299977  rc:  0.001949734  s:  31.40674 
+Iteration:  1000 
+Error ra:  0.005483011  rb:  0.001231966  rc:  0.002102101  s:  37.9341 
+Iteration:  1000 
+Error ra:  0.005296501  rb:  0.001151665  rc:  0.002028695  s:  38.82405 
+Iteration:  1000 
+Error ra:  0.005396589  rb:  0.001167473  rc:  0.002067387  s:  40.35095 
+Iteration:  1000 
+Error ra:  0.004795803  rb:  0.001244988  rc:  0.001764504  s:  27.08248 
+Iteration:  1000 
+Error ra:  0.00540303  rb:  0.001245132  rc:  0.002076638  s:  36.57901 
+Iteration:  1000 
+Error ra:  0.005521106  rb:  0.001333061  rc:  0.002137173  s:  34.50001 
+Iteration:  1000 
+Error ra:  4.602543e-07  rb:  4.605935e-07  rc:  4.658201e-08  s:  9.215087e-06 
+Iteration:  110 
+Error ra:  4.602543e-07  rb:  4.605935e-07  rc:  4.658201e-08  s:  9.215087e-06 
+Iteration:  110 
+Error ra:  6.90421e-07  rb:  7.024166e-07  rc:  4.796196e-08  s:  9.103697e-06 
+Iteration:  140 
+Error ra:  4.602543e-07  rb:  4.605935e-07  rc:  4.658201e-08  s:  9.215087e-06 
+Iteration:  110 
+Error ra:  4.469083e-07  rb:  4.292839e-07  rc:  4.348954e-08  s:  9.539844e-06 
+Iteration:  217 
+Error ra:  4.704667e-07  rb:  4.714966e-07  rc:  4.615262e-08  s:  8.886254e-06 
+Iteration:  113 
+Error ra:  4.602543e-07  rb:  4.605935e-07  rc:  4.658201e-08  s:  9.215087e-06 
+Iteration:  110 
+Error ra:  1.388727e-07  rb:  1.169452e-07  rc:  1.66581e-08  s:  9.79488e-06 
+Iteration:  262 
+Error ra:  1.141414e-06  rb:  1.182962e-06  rc:  1.052221e-07  s:  9.424684e-06 
+Iteration:  189 
+Error ra:  1.093278e-06  rb:  1.136327e-06  rc:  1.048155e-07  s:  9.625716e-06 
+Iteration:  252 
+Error ra:  7.665955e-08  rb:  5.90429e-08  rc:  1.171589e-08  s:  9.902097e-06 
+Iteration:  357 
+Error ra:  4.127422e-08  rb:  2.796113e-08  rc:  8.297894e-09  s:  9.805219e-06 
+Iteration:  498 
+Error ra:  2.468811e-08  rb:  1.451409e-08  rc:  6.052391e-09  s:  9.859738e-06 
+Iteration:  706 
+Error ra:  0.002049791  rb:  0.000675814  rc:  0.0006988106  s:  7.885495 
+Iteration:  1000 
+Error ra:  0.0002879651  rb:  0.0001110561  rc:  9.658924e-05  s:  0.6133367 
+Iteration:  1000 
+Error ra:  0.003008695  rb:  0.000883487  rc:  0.001065539  s:  14.73352 
+Iteration:  1000 
+Error ra:  2.403173e-08  rb:  1.251475e-08  rc:  6.957356e-09  s:  1.514799e-05 
+Iteration:  1000 
+Error ra:  3.828018e-05  rb:  1.564536e-05  rc:  1.290817e-05  s:  0.05766704 
+Iteration:  1000 
+Error ra:  0.0009635025  rb:  0.0003238494  rc:  0.0003338393  s:  3.071092 
+Iteration:  1000 
+Error ra:  1.797423e-06  rb:  8.223977e-07  rc:  5.810838e-07  s:  0.001769027 
+Iteration:  1000 
+Error ra:  4.602543e-07  rb:  4.605935e-07  rc:  4.658201e-08  s:  9.215087e-06 
+Iteration:  110 
+[1] 30
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: zoo
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+Loading required package: glasso
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: lattice
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Error ra:  0.004935204  rb:  0.001109975  rc:  0.001851417  s:  32.03066 
+Iteration:  1000 
+Error ra:  0.004976568  rb:  0.001096683  rc:  0.001861654  s:  32.78682 
+Iteration:  1000 
+Error ra:  0.004710143  rb:  0.001136651  rc:  0.001760014  s:  27.63561 
+Iteration:  1000 
+Error ra:  0.005005964  rb:  0.001180367  rc:  0.001876364  s:  30.7068 
+Iteration:  1000 
+Error ra:  0.004978038  rb:  0.00109596  rc:  0.001862362  s:  32.87402 
+Iteration:  1000 
+Error ra:  0.004983418  rb:  0.00109824  rc:  0.00186481  s:  32.91706 
+Iteration:  1000 
+Error ra:  0.004980415  rb:  0.001096419  rc:  0.001863374  s:  32.89526 
+Iteration:  1000 
+Error ra:  0.004983924  rb:  0.001097116  rc:  0.001864569  s:  32.92241 
+Iteration:  1000 
+Error ra:  0.004974966  rb:  0.001095391  rc:  0.001860806  s:  32.84033 
+Iteration:  1000 
+Error ra:  0.004981996  rb:  0.001096728  rc:  0.001863979  s:  32.90866 
+Iteration:  1000 
+Error ra:  0.004430164  rb:  0.001103688  rc:  0.001627671  s:  24.89496 
+Iteration:  1000 
+Error ra:  0.003973949  rb:  0.001029966  rc:  0.001422665  s:  21.10933 
+Iteration:  1000 
+Error ra:  0.00498415  rb:  0.001097087  rc:  0.001864638  s:  32.92578 
+Iteration:  1000 
+Error ra:  0.005118964  rb:  0.001221805  rc:  0.001931169  s:  31.51059 
+Iteration:  1000 
+Error ra:  0.004993876  rb:  0.001136525  rc:  0.001879626  s:  32.3586 
+Iteration:  1000 
+Error ra:  0.004990219  rb:  0.001107941  rc:  0.001870083  s:  32.70221 
+Iteration:  1000 
+Error ra:  0.003340197  rb:  0.0009194845  rc:  0.001173701  s:  16.40966 
+Iteration:  1000 
+Error ra:  0.004968615  rb:  0.001098726  rc:  0.001859979  s:  32.56926 
+Iteration:  1000 
+Error ra:  0.004984334  rb:  0.001097126  rc:  0.001864695  s:  32.92791 
+Iteration:  1000 
+Error ra:  0.004885927  rb:  0.001160558  rc:  0.00179544  s:  29.47455 
+Iteration:  1000 
+Error ra:  5.16619e-07  rb:  5.183456e-07  rc:  4.81485e-08  s:  9.824965e-06 
+Iteration:  110 
+Error ra:  5.16619e-07  rb:  5.183456e-07  rc:  4.81485e-08  s:  9.824965e-06 
+Iteration:  110 
+Error ra:  7.01613e-07  rb:  7.096057e-07  rc:  4.568672e-08  s:  9.632517e-06 
+Iteration:  129 
+Error ra:  5.16619e-07  rb:  5.183456e-07  rc:  4.81485e-08  s:  9.824965e-06 
+Iteration:  110 
+Error ra:  5.16619e-07  rb:  5.183456e-07  rc:  4.81485e-08  s:  9.824965e-06 
+Iteration:  110 
+Error ra:  8.237877e-07  rb:  8.389786e-07  rc:  8.397112e-08  s:  9.335242e-06 
+Iteration:  204 
+Error ra:  9.851469e-07  rb:  1.013382e-06  rc:  5.817487e-08  s:  9.627356e-06 
+Iteration:  169 
+Error ra:  4.775963e-07  rb:  4.804748e-07  rc:  4.312864e-08  s:  8.758262e-06 
+Iteration:  112 
+Error ra:  2.202874e-07  rb:  1.910631e-07  rc:  3.054725e-08  s:  9.680432e-06 
+Iteration:  214 
+Error ra:  1.258822e-07  rb:  1.051286e-07  rc:  1.56443e-08  s:  9.714358e-06 
+Iteration:  271 
+Error ra:  7.256684e-08  rb:  5.670101e-08  rc:  1.139715e-08  s:  9.850104e-06 
+Iteration:  361 
+Error ra:  4.004988e-08  rb:  2.775908e-08  rc:  7.775426e-09  s:  9.711625e-06 
+Iteration:  507 
+Error ra:  2.39537e-08  rb:  1.478738e-08  rc:  5.53328e-09  s:  9.988678e-06 
+Iteration:  737 
+Error ra:  0.0006809151  rb:  0.000234067  rc:  0.0002193466  s:  1.924345 
+Iteration:  1000 
+Error ra:  6.724242e-07  rb:  3.103253e-07  rc:  2.02018e-07  s:  0.0006394281 
+Iteration:  1000 
+Error ra:  3.441139e-08  rb:  1.858728e-08  rc:  9.261468e-09  s:  2.344841e-05 
+Iteration:  1000 
+Error ra:  0.0001737165  rb:  6.532685e-05  rc:  5.39816e-05  s:  0.3555339 
+Iteration:  1000 
+Error ra:  1.739753e-05  rb:  7.129979e-06  rc:  5.353104e-06  s:  0.02543915 
+Iteration:  1000 
+Error ra:  0.001570956  rb:  0.0005043186  rc:  0.000523784  s:  5.469439 
+Iteration:  1000 
+Error ra:  0.002533084  rb:  0.0007578583  rc:  0.0008668924  s:  10.82018 
+Iteration:  1000 
+Error ra:  5.16619e-07  rb:  5.183456e-07  rc:  4.81485e-08  s:  9.824965e-06 
+Iteration:  110 
+[1] 31
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+Loading required package: Matrix
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+Loading required package: glasso
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+Loading required package: lattice
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: Matrix
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Error ra:  0.005669077  rb:  0.001573794  rc:  0.002198439  s:  30.43661 
+Iteration:  1000 
+Error ra:  0.005396233  rb:  0.001157178  rc:  0.0020645  s:  39.6051 
+Iteration:  1000 
+Error ra:  0.005395865  rb:  0.001157081  rc:  0.002064359  s:  39.6012 
+Iteration:  1000 
+Error ra:  0.005411097  rb:  0.001194773  rc:  0.002083581  s:  39.34566 
+Iteration:  1000 
+Error ra:  0.0045426  rb:  0.001174053  rc:  0.001652358  s:  26.04543 
+Iteration:  1000 
+Error ra:  0.004062656  rb:  0.001119873  rc:  0.001456728  s:  20.42742 
+Iteration:  1000 
+Error ra:  0.00563617  rb:  0.001352843  rc:  0.002181045  s:  37.04839 
+Iteration:  1000 
+Error ra:  0.005396477  rb:  0.001157239  rc:  0.002064591  s:  39.60757 
+Iteration:  1000 
+Error ra:  0.005357049  rb:  0.001149687  rc:  0.002049019  s:  38.95151 
+Iteration:  1000 
+Error ra:  0.005395276  rb:  0.001156932  rc:  0.002064135  s:  39.59501 
+Iteration:  1000 
+Error ra:  0.005459314  rb:  0.001227427  rc:  0.002115533  s:  38.56944 
+Iteration:  1000 
+Error ra:  0.005391558  rb:  0.001156193  rc:  0.002062841  s:  39.54498 
+Iteration:  1000 
+Error ra:  0.005352479  rb:  0.001172064  rc:  0.002048748  s:  37.97299 
+Iteration:  1000 
+Error ra:  0.005393048  rb:  0.001156356  rc:  0.002063258  s:  39.56964 
+Iteration:  1000 
+Error ra:  4.641228e-07  rb:  4.659833e-07  rc:  4.269933e-08  s:  8.553407e-06 
+Iteration:  113 
+Error ra:  0.005393071  rb:  0.00115732  rc:  0.002063753  s:  39.50586 
+Iteration:  1000 
+Error ra:  0.005365449  rb:  0.001152284  rc:  0.002052182  s:  39.19366 
+Iteration:  1000 
+Error ra:  0.005394362  rb:  0.0011567  rc:  0.002063784  s:  39.58519 
+Iteration:  1000 
+Error ra:  0.005660066  rb:  0.001441068  rc:  0.0022085  s:  33.49359 
+Iteration:  1000 
+Error ra:  0.005638368  rb:  0.001391412  rc:  0.002197812  s:  35.63257 
+Iteration:  1000 
+Error ra:  0.005410173  rb:  0.001179417  rc:  0.002078233  s:  39.44366 
+Iteration:  1000 
+Error ra:  4.641228e-07  rb:  4.659833e-07  rc:  4.269933e-08  s:  8.553407e-06 
+Iteration:  113 
+Error ra:  5.302532e-07  rb:  5.346258e-07  rc:  4.976204e-08  s:  9.32755e-06 
+Iteration:  117 
+Error ra:  4.641228e-07  rb:  4.659833e-07  rc:  4.269933e-08  s:  8.553407e-06 
+Iteration:  113 
+Error ra:  4.731791e-07  rb:  4.752425e-07  rc:  4.354056e-08  s:  8.719545e-06 
+Iteration:  113 
+Error ra:  7.008678e-07  rb:  7.139634e-07  rc:  6.275884e-08  s:  9.97863e-06 
+Iteration:  136 
+Error ra:  4.641228e-07  rb:  4.659833e-07  rc:  4.269933e-08  s:  8.553407e-06 
+Iteration:  113 
+Error ra:  4.567497e-07  rb:  4.254979e-07  rc:  3.742706e-08  s:  9.31271e-06 
+Iteration:  180 
+Error ra:  7.241001e-07  rb:  7.226467e-07  rc:  8.03809e-08  s:  9.533968e-06 
+Iteration:  173 
+Error ra:  7.622839e-08  rb:  5.363691e-08  rc:  1.439281e-08  s:  9.633944e-06 
+Iteration:  268 
+Error ra:  1.425165e-07  rb:  1.138207e-07  rc:  2.02395e-08  s:  9.259232e-06 
+Iteration:  199 
+Error ra:  4.473165e-08  rb:  2.841793e-08  rc:  9.964707e-09  s:  9.93698e-06 
+Iteration:  403 
+Error ra:  2.621688e-08  rb:  1.455323e-08  rc:  6.879106e-09  s:  9.925539e-06 
+Iteration:  609 
+Error ra:  1.645637e-08  rb:  7.975785e-09  rc:  4.799745e-09  s:  9.896354e-06 
+Iteration:  878 
+Error ra:  0.001887813  rb:  0.0005795751  rc:  0.0006631908  s:  7.170633 
+Iteration:  1000 
+Error ra:  0.003014176  rb:  0.0008665134  rc:  0.001072445  s:  13.81704 
+Iteration:  1000 
+Error ra:  0.0009015406  rb:  0.0003173852  rc:  0.0002991091  s:  2.455075 
+Iteration:  1000 
+Error ra:  0.0002192505  rb:  7.776766e-05  rc:  7.276682e-05  s:  0.469485 
+Iteration:  1000 
+Error ra:  4.214951e-07  rb:  1.780381e-07  rc:  1.357336e-07  s:  0.0003912661 
+Iteration:  1000 
+Error ra:  2.086526e-05  rb:  7.973313e-06  rc:  6.825288e-06  s:  0.02991622 
+Iteration:  1000 
+Error ra:  4.641228e-07  rb:  4.659833e-07  rc:  4.269933e-08  s:  8.553407e-06 
+Iteration:  113 
+[1] 32
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+Loading required package: Matrix
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+Loading required package: lattice
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: zoo
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: glasso
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Error ra:  0.004294042  rb:  0.000944576  rc:  0.001626595  s:  27.47853 
+Iteration:  1000 
+Error ra:  0.004120517  rb:  0.001024879  rc:  0.001546739  s:  23.08703 
+Iteration:  1000 
+Error ra:  0.004305196  rb:  0.0009509258  rc:  0.001630911  s:  27.55228 
+Iteration:  1000 
+Error ra:  0.004347132  rb:  0.0009823698  rc:  0.001658047  s:  27.17874 
+Iteration:  1000 
+Error ra:  0.004239993  rb:  0.0009424905  rc:  0.001601309  s:  26.43375 
+Iteration:  1000 
+Error ra:  0.003555969  rb:  0.0009561467  rc:  0.001296813  s:  17.51907 
+Iteration:  1000 
+Error ra:  0.002825154  rb:  0.0007651526  rc:  0.001005304  s:  13.42353 
+Iteration:  1000 
+Error ra:  0.004301224  rb:  0.0009391412  rc:  0.001626721  s:  27.64716 
+Iteration:  1000 
+Error ra:  0.004302333  rb:  0.0009383121  rc:  0.001627163  s:  27.67113 
+Iteration:  1000 
+Error ra:  0.00430183  rb:  0.0009382513  rc:  0.001627034  s:  27.66642 
+Iteration:  1000 
+Error ra:  0.004306053  rb:  0.000948688  rc:  0.001631972  s:  27.59886 
+Iteration:  1000 
+Error ra:  0.004304352  rb:  0.0009414917  rc:  0.001629962  s:  27.36302 
+Iteration:  1000 
+Error ra:  0.004302683  rb:  0.0009383576  rc:  0.001627244  s:  27.6741 
+Iteration:  1000 
+Error ra:  0.004301308  rb:  0.0009384061  rc:  0.001626871  s:  27.65897 
+Iteration:  1000 
+Error ra:  0.004179825  rb:  0.0009240085  rc:  0.001583939  s:  25.72724 
+Iteration:  1000 
+Error ra:  0.003905699  rb:  0.0009712482  rc:  0.0014545  s:  20.73167 
+Iteration:  1000 
+Error ra:  0.004302897  rb:  0.0009383924  rc:  0.001627298  s:  27.67597 
+Iteration:  1000 
+Error ra:  0.004042908  rb:  0.000908109  rc:  0.001520594  s:  24.63984 
+Iteration:  1000 
+Error ra:  4.769443e-07  rb:  4.773638e-07  rc:  4.776017e-08  s:  9.738542e-06 
+Iteration:  109 
+Error ra:  0.004219776  rb:  0.0009263598  rc:  0.001598932  s:  26.89392 
+Iteration:  1000 
+Error ra:  0.004303335  rb:  0.0009449045  rc:  0.001630954  s:  27.62848 
+Iteration:  1000 
+Error ra:  4.769443e-07  rb:  4.773638e-07  rc:  4.776017e-08  s:  9.738542e-06 
+Iteration:  109 
+Error ra:  4.769443e-07  rb:  4.773638e-07  rc:  4.776017e-08  s:  9.738542e-06 
+Iteration:  109 
+Error ra:  4.769443e-07  rb:  4.773638e-07  rc:  4.776017e-08  s:  9.738542e-06 
+Iteration:  109 
+Error ra:  6.196103e-07  rb:  6.236364e-07  rc:  4.029097e-08  s:  8.837776e-06 
+Iteration:  128 
+Error ra:  4.349504e-07  rb:  4.351158e-07  rc:  4.377535e-08  s:  8.795587e-06 
+Iteration:  110 
+Error ra:  9.40548e-07  rb:  9.665046e-07  rc:  7.120656e-08  s:  9.255018e-06 
+Iteration:  165 
+Error ra:  5.647607e-07  rb:  5.609072e-07  rc:  5.198766e-08  s:  9.535445e-06 
+Iteration:  215 
+Error ra:  8.259193e-08  rb:  6.159351e-08  rc:  1.512082e-08  s:  9.943921e-06 
+Iteration:  308 
+Error ra:  1.441577e-07  rb:  1.19872e-07  rc:  2.08288e-08  s:  9.340533e-06 
+Iteration:  226 
+Error ra:  1.002942e-06  rb:  1.031871e-06  rc:  1.071683e-07  s:  9.436506e-06 
+Iteration:  214 
+Error ra:  4.603984e-08  rb:  3.002926e-08  rc:  1.069537e-08  s:  9.765728e-06 
+Iteration:  430 
+Error ra:  2.760531e-08  rb:  1.549478e-08  rc:  7.597033e-09  s:  9.735782e-06 
+Iteration:  606 
+Error ra:  1.788955e-08  rb:  8.559112e-09  rc:  5.50684e-09  s:  9.996537e-06 
+Iteration:  846 
+Error ra:  0.002148102  rb:  0.0006356279  rc:  0.0007441877  s:  8.841264 
+Iteration:  1000 
+Error ra:  0.001287159  rb:  0.0004073541  rc:  0.0004357115  s:  4.448547 
+Iteration:  1000 
+Error ra:  0.0001268899  rb:  4.758924e-05  rc:  4.041506e-05  s:  0.2403702 
+Iteration:  1000 
+Error ra:  3.565463e-07  rb:  1.479758e-07  rc:  1.207099e-07  s:  0.0003248276 
+Iteration:  1000 
+Error ra:  1.323688e-05  rb:  5.067555e-06  rc:  4.382161e-06  s:  0.01785011 
+Iteration:  1000 
+Error ra:  0.0005642688  rb:  0.0001962287  rc:  0.0001844825  s:  1.504249 
+Iteration:  1000 
+Error ra:  4.769443e-07  rb:  4.773638e-07  rc:  4.776017e-08  s:  9.738542e-06 
+Iteration:  109 
+[1] 33
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+Loading required package: Matrix
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: Matrix
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+Loading required package: glasso
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: glasso
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+Loading required package: Matrix
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: Matrix
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Error ra:  0.005616608  rb:  0.001278578  rc:  0.002149474  s:  37.88092 
+Iteration:  1000 
+Error ra:  0.005908827  rb:  0.001291458  rc:  0.002269838  s:  44.3347 
+Iteration:  1000 
+Error ra:  0.005926101  rb:  0.001306873  rc:  0.002273197  s:  43.32908 
+Iteration:  1000 
+Error ra:  0.005981191  rb:  0.001336434  rc:  0.002300623  s:  43.7365 
+Iteration:  1000 
+Error ra:  4.189129e-07  rb:  4.192888e-07  rc:  4.216588e-08  s:  8.426802e-06 
+Iteration:  112 
+Error ra:  0.005921235  rb:  0.001305622  rc:  0.002274188  s:  43.99841 
+Iteration:  1000 
+Error ra:  0.00591521  rb:  0.001284977  rc:  0.00226821  s:  44.44323 
+Iteration:  1000 
+Error ra:  0.005996849  rb:  0.001381561  rc:  0.002319506  s:  42.69006 
+Iteration:  1000 
+Error ra:  0.006401216  rb:  0.001576132  rc:  0.002512861  s:  40.17574 
+Iteration:  1000 
+Error ra:  0.00590724  rb:  0.00130402  rc:  0.002276127  s:  44.26859 
+Iteration:  1000 
+Error ra:  0.005247616  rb:  0.00140591  rc:  0.001976003  s:  30.01095 
+Iteration:  1000 
+Error ra:  0.005912843  rb:  0.001284417  rc:  0.002267362  s:  44.41937 
+Iteration:  1000 
+Error ra:  0.00590828  rb:  0.001296777  rc:  0.002271742  s:  44.16378 
+Iteration:  1000 
+Error ra:  0.00591124  rb:  0.001284045  rc:  0.002266769  s:  44.40278 
+Iteration:  1000 
+Error ra:  0.005909818  rb:  0.001286536  rc:  0.0022673  s:  44.37645 
+Iteration:  1000 
+Error ra:  0.004300146  rb:  0.00117769  rc:  0.001559265  s:  23.80179 
+Iteration:  1000 
+Error ra:  0.005419815  rb:  0.00131439  rc:  0.002032157  s:  34.54817 
+Iteration:  1000 
+Error ra:  0.00591453  rb:  0.001284816  rc:  0.002267969  s:  44.43644 
+Iteration:  1000 
+Error ra:  0.005913875  rb:  0.00128466  rc:  0.002267733  s:  44.42983 
+Iteration:  1000 
+Error ra:  0.006426281  rb:  0.001559912  rc:  0.002507803  s:  41.69837 
+Iteration:  1000 
+Error ra:  0.005914946  rb:  0.001284915  rc:  0.002268115  s:  44.4406 
+Iteration:  1000 
+Error ra:  4.189129e-07  rb:  4.192888e-07  rc:  4.216588e-08  s:  8.426802e-06 
+Iteration:  112 
+Error ra:  4.982974e-07  rb:  4.997138e-07  rc:  4.264133e-08  s:  8.595384e-06 
+Iteration:  119 
+Error ra:  4.189129e-07  rb:  4.192888e-07  rc:  4.216588e-08  s:  8.426802e-06 
+Iteration:  112 
+Error ra:  4.189129e-07  rb:  4.192888e-07  rc:  4.216588e-08  s:  8.426802e-06 
+Iteration:  112 
+Error ra:  3.920461e-07  rb:  3.645956e-07  rc:  3.697025e-08  s:  9.920489e-06 
+Iteration:  222 
+Error ra:  9.560661e-07  rb:  9.605226e-07  rc:  1.199444e-07  s:  9.800446e-06 
+Iteration:  220 
+Error ra:  9.887735e-07  rb:  1.012134e-06  rc:  6.799009e-08  s:  9.664528e-06 
+Iteration:  187 
+Error ra:  7.399834e-07  rb:  7.46772e-07  rc:  4.389485e-08  s:  9.056593e-06 
+Iteration:  149 
+Error ra:  1.236337e-07  rb:  1.025628e-07  rc:  1.540218e-08  s:  9.74645e-06 
+Iteration:  269 
+Error ra:  6.885193e-08  rb:  5.277261e-08  rc:  1.019508e-08  s:  9.854557e-06 
+Iteration:  371 
+Error ra:  3.848079e-08  rb:  2.65404e-08  rc:  6.978199e-09  s:  9.740101e-06 
+Iteration:  516 
+Error ra:  2.341164e-08  rb:  1.419441e-08  rc:  5.231134e-09  s:  9.960298e-06 
+Iteration:  726 
+Error ra:  0.003318808  rb:  0.000947304  rc:  0.001185603  s:  16.40094 
+Iteration:  1000 
+Error ra:  1.545373e-08  rb:  8.12326e-09  rc:  4.016154e-09  s:  9.988694e-06 
+Iteration:  966 
+Error ra:  0.001058664  rb:  0.0003717795  rc:  0.0003518006  s:  3.148707 
+Iteration:  1000 
+Error ra:  3.647112e-05  rb:  1.436669e-05  rc:  1.192793e-05  s:  0.05553422 
+Iteration:  1000 
+Error ra:  0.002168747  rb:  0.0006629422  rc:  0.0007610917  s:  9.012017 
+Iteration:  1000 
+Error ra:  0.0003016986  rb:  0.0001125414  rc:  9.974543e-05  s:  0.6503835 
+Iteration:  1000 
+Error ra:  4.189129e-07  rb:  4.192888e-07  rc:  4.216588e-08  s:  8.426802e-06 
+Iteration:  112 
+Error ra:  1.062784e-06  rb:  4.708123e-07  rc:  3.170958e-07  s:  0.001077558 
+Iteration:  1000 
+[1] 34
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+Loading required package: zoo
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: Matrix
+Loading required package: quadprog
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: glasso
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+Loading required package: glasso
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+Loading required package: glasso
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+Loading required package: lattice
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: zoo
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Error ra:  0.005170062  rb:  0.001127497  rc:  0.001946604  s:  35.44998 
+Iteration:  1000 
+Error ra:  0.004830756  rb:  0.001239472  rc:  0.001748476  s:  27.03365 
+Iteration:  1000 
+Error ra:  0.005162257  rb:  0.00116581  rc:  0.001955966  s:  34.94013 
+Iteration:  1000 
+Error ra:  0.004219193  rb:  0.001110829  rc:  0.001514235  s:  22.90431 
+Iteration:  1000 
+Error ra:  0.005178906  rb:  0.001129206  rc:  0.001949924  s:  35.54276 
+Iteration:  1000 
+Error ra:  0.005168122  rb:  0.001128752  rc:  0.001945881  s:  35.39344 
+Iteration:  1000 
+Error ra:  0.005175195  rb:  0.001128377  rc:  0.00194856  s:  35.50815 
+Iteration:  1000 
+Error ra:  0.005172856  rb:  0.001127936  rc:  0.00194768  s:  35.48565 
+Iteration:  1000 
+Error ra:  0.004958135  rb:  0.001168027  rc:  0.001848952  s:  29.93659 
+Iteration:  1000 
+Error ra:  0.005147304  rb:  0.001123005  rc:  0.001937736  s:  35.16307 
+Iteration:  1000 
+Error ra:  0.003587995  rb:  0.001004378  rc:  0.001257343  s:  17.58607 
+Iteration:  1000 
+Error ra:  0.005168263  rb:  0.001141244  rc:  0.001954089  s:  35.30383 
+Iteration:  1000 
+Error ra:  0.005178662  rb:  0.001129151  rc:  0.001949835  s:  35.54051 
+Iteration:  1000 
+Error ra:  0.005178275  rb:  0.001129063  rc:  0.001949694  s:  35.53694 
+Iteration:  1000 
+Error ra:  0.005344985  rb:  0.001248483  rc:  0.002050501  s:  34.04007 
+Iteration:  1000 
+Error ra:  0.005176716  rb:  0.001128715  rc:  0.001949116  s:  35.52234 
+Iteration:  1000 
+Error ra:  0.005245096  rb:  0.001233335  rc:  0.001981132  s:  31.89583 
+Iteration:  1000 
+Error ra:  0.005348366  rb:  0.001241742  rc:  0.002038044  s:  34.58557 
+Iteration:  1000 
+Error ra:  0.005177677  rb:  0.00112893  rc:  0.001949469  s:  35.53129 
+Iteration:  1000 
+Error ra:  0.005090814  rb:  0.001139417  rc:  0.001916785  s:  33.18713 
+Iteration:  1000 
+Error ra:  4.663513e-07  rb:  4.664182e-07  rc:  4.789502e-08  s:  9.437458e-06 
+Iteration:  108 
+Error ra:  4.663513e-07  rb:  4.664182e-07  rc:  4.789502e-08  s:  9.437458e-06 
+Iteration:  108 
+Error ra:  4.663513e-07  rb:  4.664182e-07  rc:  4.789502e-08  s:  9.437458e-06 
+Iteration:  108 
+Error ra:  4.663513e-07  rb:  4.664182e-07  rc:  4.789502e-08  s:  9.437458e-06 
+Iteration:  108 
+Error ra:  4.744337e-07  rb:  4.744868e-07  rc:  4.893461e-08  s:  9.600376e-06 
+Iteration:  108 
+Error ra:  7.312862e-07  rb:  7.490725e-07  rc:  6.91751e-08  s:  9.601157e-06 
+Iteration:  143 
+Error ra:  4.587278e-07  rb:  4.33178e-07  rc:  3.924221e-08  s:  9.411014e-06 
+Iteration:  196 
+Error ra:  8.121373e-07  rb:  8.10006e-07  rc:  9.126552e-08  s:  9.585139e-06 
+Iteration:  181 
+Error ra:  5.636657e-07  rb:  5.670818e-07  rc:  5.409185e-08  s:  9.810457e-06 
+Iteration:  117 
+Error ra:  1.389331e-07  rb:  1.139482e-07  rc:  1.974087e-08  s:  9.921418e-06 
+Iteration:  232 
+Error ra:  7.757681e-08  rb:  5.732611e-08  rc:  1.411308e-08  s:  9.884085e-06 
+Iteration:  308 
+Error ra:  4.155042e-08  rb:  2.758516e-08  rc:  8.93955e-09  s:  9.703528e-06 
+Iteration:  464 
+Error ra:  2.5613e-08  rb:  1.473228e-08  rc:  6.720533e-09  s:  9.910806e-06 
+Iteration:  643 
+Error ra:  1.678649e-08  rb:  8.198604e-09  rc:  5.163006e-09  s:  9.985848e-06 
+Iteration:  901 
+Error ra:  0.001719344  rb:  0.0005676516  rc:  0.0005719219  s:  6.022761 
+Iteration:  1000 
+Error ra:  0.002818126  rb:  0.0008497413  rc:  0.0009771031  s:  11.78584 
+Iteration:  1000 
+Error ra:  0.0007787031  rb:  0.0002745186  rc:  0.0002500511  s:  2.170453 
+Iteration:  1000 
+Error ra:  5.386661e-07  rb:  2.274292e-07  rc:  1.761252e-07  s:  0.0005055407 
+Iteration:  1000 
+Error ra:  1.855888e-05  rb:  7.13204e-06  rc:  6.184925e-06  s:  0.02641633 
+Iteration:  1000 
+Error ra:  0.0001913221  rb:  7.047577e-05  rc:  6.25439e-05  s:  0.3959812 
+Iteration:  1000 
+Error ra:  4.663513e-07  rb:  4.664182e-07  rc:  4.789502e-08  s:  9.437458e-06 
+Iteration:  108 
+[1] 35
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+Loading required package: zoo
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: glasso
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: glasso
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Error ra:  0.004785971  rb:  0.001040072  rc:  0.001833217  s:  33.40974 
+Iteration:  1000 
+Error ra:  0.004777407  rb:  0.001073378  rc:  0.001834762  s:  32.25154 
+Iteration:  1000 
+Error ra:  0.004789425  rb:  0.001040312  rc:  0.001833668  s:  33.57547 
+Iteration:  1000 
+Error ra:  0.003302634  rb:  0.000917343  rc:  0.001199487  s:  16.85695 
+Iteration:  1000 
+Error ra:  0.004792927  rb:  0.001038241  rc:  0.00183342  s:  33.61724 
+Iteration:  1000 
+Error ra:  0.004755254  rb:  0.001035299  rc:  0.001819145  s:  33.07788 
+Iteration:  1000 
+Error ra:  0.004792222  rb:  0.001038196  rc:  0.001833245  s:  33.60903 
+Iteration:  1000 
+Error ra:  0.004650179  rb:  0.001029963  rc:  0.001770011  s:  31.46406 
+Iteration:  1000 
+Error ra:  0.004792666  rb:  0.001039282  rc:  0.001833329  s:  33.59599 
+Iteration:  1000 
+Error ra:  0.004793728  rb:  0.001038436  rc:  0.001833657  s:  33.62569 
+Iteration:  1000 
+Error ra:  0.004785376  rb:  0.001074604  rc:  0.001837983  s:  32.75728 
+Iteration:  1000 
+Error ra:  0.004549058  rb:  0.00100864  rc:  0.001730922  s:  30.24747 
+Iteration:  1000 
+Error ra:  0.004176381  rb:  0.001001607  rc:  0.001554012  s:  25.65337 
+Iteration:  1000 
+Error ra:  0.004793966  rb:  0.001038491  rc:  0.00183374  s:  33.62775 
+Iteration:  1000 
+Error ra:  0.00479339  rb:  0.001038349  rc:  0.001833528  s:  33.62242 
+Iteration:  1000 
+Error ra:  0.004080364  rb:  0.001087723  rc:  0.001502712  s:  21.87497 
+Iteration:  1000 
+Error ra:  0.004637946  rb:  0.001124185  rc:  0.001728244  s:  28.4051 
+Iteration:  1000 
+Error ra:  0.004790749  rb:  0.001043626  rc:  0.001833788  s:  33.49103 
+Iteration:  1000 
+Error ra:  0.004781188  rb:  0.00103982  rc:  0.0018267  s:  33.28089 
+Iteration:  1000 
+Error ra:  0.004786324  rb:  0.001036932  rc:  0.001831055  s:  33.54297 
+Iteration:  1000 
+Error ra:  6.989577e-07  rb:  7.158735e-07  rc:  7.265796e-08  s:  9.00486e-06 
+Iteration:  142 
+Error ra:  4.781937e-07  rb:  4.782218e-07  rc:  4.65424e-08  s:  9.51552e-06 
+Iteration:  109 
+Error ra:  5.490245e-07  rb:  5.538278e-07  rc:  4.941776e-08  s:  9.405814e-06 
+Iteration:  118 
+Error ra:  4.306882e-07  rb:  4.305896e-07  rc:  4.20999e-08  s:  8.537701e-06 
+Iteration:  110 
+Error ra:  4.781937e-07  rb:  4.782218e-07  rc:  4.65424e-08  s:  9.51552e-06 
+Iteration:  109 
+Error ra:  4.781937e-07  rb:  4.782218e-07  rc:  4.65424e-08  s:  9.51552e-06 
+Iteration:  109 
+Error ra:  4.781937e-07  rb:  4.782218e-07  rc:  4.65424e-08  s:  9.51552e-06 
+Iteration:  109 
+Error ra:  5.315853e-07  rb:  5.064742e-07  rc:  5.071515e-08  s:  9.388995e-06 
+Iteration:  191 
+Error ra:  8.031305e-08  rb:  5.657669e-08  rc:  1.55955e-08  s:  9.665579e-06 
+Iteration:  267 
+Error ra:  7.972638e-07  rb:  7.975797e-07  rc:  1.100261e-07  s:  9.416006e-06 
+Iteration:  178 
+Error ra:  1.509213e-07  rb:  1.200808e-07  rc:  2.241884e-08  s:  9.526398e-06 
+Iteration:  194 
+Error ra:  4.514943e-08  rb:  2.777562e-08  rc:  1.113845e-08  s:  9.70744e-06 
+Iteration:  393 
+Error ra:  2.790229e-08  rb:  1.497103e-08  rc:  7.915177e-09  s:  9.863259e-06 
+Iteration:  586 
+Error ra:  1.722462e-08  rb:  8.080409e-09  rc:  5.558581e-09  s:  9.965409e-06 
+Iteration:  876 
+Error ra:  0.0001883784  rb:  6.964312e-05  rc:  6.08413e-05  s:  0.3902021 
+Iteration:  1000 
+Error ra:  4.773646e-07  rb:  1.939163e-07  rc:  1.639023e-07  s:  0.000443693 
+Iteration:  1000 
+Error ra:  2.210574e-05  rb:  8.419866e-06  rc:  7.418905e-06  s:  0.03241067 
+Iteration:  1000 
+Error ra:  0.002637645  rb:  0.0008037402  rc:  0.0009115941  s:  11.35298 
+Iteration:  1000 
+Error ra:  0.001657169  rb:  0.0005387087  rc:  0.0005589454  s:  6.051175 
+Iteration:  1000 
+Error ra:  0.0007103576  rb:  0.0002533873  rc:  0.0002298763  s:  1.936005 
+Iteration:  1000 
+Error ra:  4.781937e-07  rb:  4.782218e-07  rc:  4.65424e-08  s:  9.51552e-06 
+Iteration:  109 
+[1] 36
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: lattice
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+Loading required package: Matrix
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: zoo
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+Loading required package: zoo
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+Loading required package: lattice
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Error ra:  0.004989482  rb:  0.001082629  rc:  0.00189325  s:  33.95363 
+Iteration:  1000 
+Error ra:  0.00413072  rb:  0.001074522  rc:  0.001508512  s:  22.1138 
+Iteration:  1000 
+Error ra:  0.004999075  rb:  0.001084734  rc:  0.001896768  s:  34.04257 
+Iteration:  1000 
+Error ra:  0.004968266  rb:  0.001089039  rc:  0.001878821  s:  33.13472 
+Iteration:  1000 
+Error ra:  0.005071677  rb:  0.001138369  rc:  0.001933604  s:  32.60886 
+Iteration:  1000 
+Error ra:  0.00338909  rb:  0.0008879188  rc:  0.001223739  s:  17.32745 
+Iteration:  1000 
+Error ra:  0.004724822  rb:  0.001139172  rc:  0.001783719  s:  28.61617 
+Iteration:  1000 
+Error ra:  0.005078566  rb:  0.001143954  rc:  0.001943196  s:  33.67824 
+Iteration:  1000 
+Error ra:  0.004873247  rb:  0.001085333  rc:  0.001841029  s:  31.8097 
+Iteration:  1000 
+Error ra:  0.004997856  rb:  0.001084467  rc:  0.001896325  s:  34.03158 
+Iteration:  1000 
+Error ra:  0.004412443  rb:  0.001090698  rc:  0.001621106  s:  25.85455 
+Iteration:  1000 
+Error ra:  0.004996901  rb:  0.001084259  rc:  0.001895984  s:  34.02299 
+Iteration:  1000 
+Error ra:  0.004995393  rb:  0.001083931  rc:  0.001895443  s:  34.00939 
+Iteration:  1000 
+Error ra:  0.004701258  rb:  0.001041497  rc:  0.001773406  s:  30.53735 
+Iteration:  1000 
+Error ra:  0.004993031  rb:  0.001083418  rc:  0.001894592  s:  33.98782 
+Iteration:  1000 
+Error ra:  0.004985369  rb:  0.001082325  rc:  0.00189186  s:  33.89939 
+Iteration:  1000 
+Error ra:  0.004968803  rb:  0.001102616  rc:  0.00189348  s:  33.4699 
+Iteration:  1000 
+Error ra:  0.004998836  rb:  0.001084681  rc:  0.001896681  s:  34.04041 
+Iteration:  1000 
+Error ra:  0.004983481  rb:  0.001083068  rc:  0.001892669  s:  33.8133 
+Iteration:  1000 
+Error ra:  4.540702e-07  rb:  4.536757e-07  rc:  4.650227e-08  s:  9.297816e-06 
+Iteration:  108 
+Error ra:  0.004998458  rb:  0.001084598  rc:  0.001896544  s:  34.037 
+Iteration:  1000 
+Error ra:  4.540702e-07  rb:  4.536757e-07  rc:  4.650227e-08  s:  9.297816e-06 
+Iteration:  108 
+Error ra:  4.540702e-07  rb:  4.536757e-07  rc:  4.650227e-08  s:  9.297816e-06 
+Iteration:  108 
+Error ra:  4.540702e-07  rb:  4.536757e-07  rc:  4.650227e-08  s:  9.297816e-06 
+Iteration:  108 
+Error ra:  6.776331e-07  rb:  6.836388e-07  rc:  4.591477e-08  s:  9.095308e-06 
+Iteration:  135 
+Error ra:  1.019905e-06  rb:  1.042647e-06  rc:  7.193113e-08  s:  9.978412e-06 
+Iteration:  173 
+Error ra:  4.48348e-07  rb:  4.48758e-07  rc:  4.550124e-08  s:  8.81983e-06 
+Iteration:  110 
+Error ra:  1.124007e-06  rb:  1.176611e-06  rc:  1.218467e-07  s:  9.919675e-06 
+Iteration:  225 
+Error ra:  4.985722e-07  rb:  4.792391e-07  rc:  5.079923e-08  s:  9.67534e-06 
+Iteration:  196 
+Error ra:  1.424725e-07  rb:  1.191761e-07  rc:  1.858359e-08  s:  9.565431e-06 
+Iteration:  241 
+Error ra:  7.440041e-08  rb:  5.570512e-08  rc:  1.2874e-08  s:  9.775779e-06 
+Iteration:  339 
+Error ra:  3.906402e-08  rb:  2.564384e-08  rc:  8.567507e-09  s:  9.724316e-06 
+Iteration:  495 
+Error ra:  2.495586e-08  rb:  1.454329e-08  rc:  6.348733e-09  s:  9.823158e-06 
+Iteration:  685 
+Error ra:  0.002688626  rb:  0.0008043446  rc:  0.00092744  s:  11.32819 
+Iteration:  1000 
+Error ra:  0.0001956838  rb:  7.006008e-05  rc:  6.521897e-05  s:  0.4067931 
+Iteration:  1000 
+Error ra:  1.582902e-08  rb:  7.940277e-09  rc:  4.690974e-09  s:  9.836981e-06 
+Iteration:  961 
+Error ra:  0.001701177  rb:  0.0005281647  rc:  0.000585053  s:  6.100797 
+Iteration:  1000 
+Error ra:  6.594509e-07  rb:  2.804245e-07  rc:  2.189866e-07  s:  0.0006226351 
+Iteration:  1000 
+Error ra:  1.980964e-05  rb:  7.62803e-06  rc:  6.635304e-06  s:  0.02778457 
+Iteration:  1000 
+Error ra:  4.540702e-07  rb:  4.536757e-07  rc:  4.650227e-08  s:  9.297816e-06 
+Iteration:  108 
+Error ra:  0.0007565926  rb:  0.0002572975  rc:  0.0002516014  s:  2.093905 
+Iteration:  1000 
+[1] 37
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+Loading required package: zoo
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+Loading required package: Matrix
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+Loading required package: zoo
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: zoo
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+Loading required package: glasso
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Error ra:  0.003912463  rb:  0.0009695132  rc:  0.001429587  s:  22.42984 
+Iteration:  1000 
+Error ra:  0.005201837  rb:  0.001218707  rc:  0.001992141  s:  33.45113 
+Iteration:  1000 
+Error ra:  0.004663413  rb:  0.001160827  rc:  0.001712724  s:  26.31831 
+Iteration:  1000 
+Error ra:  0.00500307  rb:  0.00109461  rc:  0.001887777  s:  33.79033 
+Iteration:  1000 
+Error ra:  0.005033878  rb:  0.001095445  rc:  0.001899857  s:  34.37053 
+Iteration:  1000 
+Error ra:  0.005032639  rb:  0.001095169  rc:  0.001899406  s:  34.35951 
+Iteration:  1000 
+Error ra:  5.273358e-07  rb:  5.279929e-07  rc:  4.776297e-08  s:  9.550318e-06 
+Iteration:  112 
+Error ra:  0.005027675  rb:  0.001094089  rc:  0.001897631  s:  34.31562 
+Iteration:  1000 
+Error ra:  0.005023575  rb:  0.00119805  rc:  0.001885425  s:  30.86977 
+Iteration:  1000 
+Error ra:  0.005028799  rb:  0.001104522  rc:  0.001898083  s:  34.14104 
+Iteration:  1000 
+Error ra:  0.004703163  rb:  0.001142124  rc:  0.001774171  s:  29.01928 
+Iteration:  1000 
+Error ra:  0.005031669  rb:  0.001094956  rc:  0.001899054  s:  34.3509 
+Iteration:  1000 
+Error ra:  0.003681185  rb:  0.00102082  rc:  0.001312488  s:  17.36014 
+Iteration:  1000 
+Error ra:  0.005018827  rb:  0.001092321  rc:  0.001894273  s:  34.22692 
+Iteration:  1000 
+Error ra:  0.0050239  rb:  0.00109325  rc:  0.001896234  s:  34.28132 
+Iteration:  1000 
+Error ra:  0.004979597  rb:  0.001109538  rc:  0.001886802  s:  32.92102 
+Iteration:  1000 
+Error ra:  0.005269848  rb:  0.001240806  rc:  0.002006813  s:  32.09825 
+Iteration:  1000 
+Error ra:  0.005033249  rb:  0.001095305  rc:  0.001899628  s:  34.36494 
+Iteration:  1000 
+Error ra:  0.005021326  rb:  0.001096697  rc:  0.001901365  s:  34.00503 
+Iteration:  1000 
+Error ra:  0.005033635  rb:  0.001095391  rc:  0.001899768  s:  34.36837 
+Iteration:  1000 
+Error ra:  5.273358e-07  rb:  5.279929e-07  rc:  4.776297e-08  s:  9.550318e-06 
+Iteration:  112 
+Error ra:  0.005030126  rb:  0.001094619  rc:  0.001898503  s:  34.33725 
+Iteration:  1000 
+Error ra:  8.379256e-07  rb:  8.484163e-07  rc:  1.072377e-07  s:  9.815402e-06 
+Iteration:  183 
+Error ra:  5.274863e-07  rb:  5.282411e-07  rc:  4.772987e-08  s:  9.54703e-06 
+Iteration:  112 
+Error ra:  5.273358e-07  rb:  5.279929e-07  rc:  4.776297e-08  s:  9.550318e-06 
+Iteration:  112 
+Error ra:  5.273358e-07  rb:  5.279929e-07  rc:  4.776297e-08  s:  9.550318e-06 
+Iteration:  112 
+Error ra:  4.56945e-07  rb:  4.327808e-07  rc:  4.085352e-08  s:  9.698161e-06 
+Iteration:  193 
+Error ra:  5.343417e-07  rb:  5.362299e-07  rc:  4.730169e-08  s:  9.018072e-06 
+Iteration:  119 
+Error ra:  7.576008e-07  rb:  7.698215e-07  rc:  6.994568e-08  s:  9.707703e-06 
+Iteration:  145 
+Error ra:  1.425919e-07  rb:  1.171518e-07  rc:  1.632881e-08  s:  9.375089e-06 
+Iteration:  229 
+Error ra:  7.792295e-08  rb:  5.695037e-08  rc:  1.17966e-08  s:  9.936291e-06 
+Iteration:  315 
+Error ra:  4.513092e-08  rb:  2.904194e-08  rc:  8.586711e-09  s:  9.83131e-06 
+Iteration:  429 
+Error ra:  2.625962e-08  rb:  1.436187e-08  rc:  6.318476e-09  s:  9.90713e-06 
+Iteration:  612 
+Error ra:  1.679095e-08  rb:  8.029359e-09  rc:  4.56133e-09  s:  9.94938e-06 
+Iteration:  868 
+Error ra:  0.002776613  rb:  0.000811437  rc:  0.000974999  s:  11.68813 
+Iteration:  1000 
+Error ra:  0.0001772168  rb:  6.581253e-05  rc:  5.686626e-05  s:  0.3602131 
+Iteration:  1000 
+Error ra:  1.79859e-05  rb:  7.0286e-06  rc:  5.83447e-06  s:  0.02570109 
+Iteration:  1000 
+Error ra:  0.0007190848  rb:  0.0002482043  rc:  0.0002362593  s:  1.985524 
+Iteration:  1000 
+Error ra:  4.514977e-07  rb:  1.862383e-07  rc:  1.438682e-07  s:  0.0004291658 
+Iteration:  1000 
+Error ra:  5.273358e-07  rb:  5.279929e-07  rc:  4.776297e-08  s:  9.550318e-06 
+Iteration:  112 
+Error ra:  0.001631166  rb:  0.0005145485  rc:  0.0005504898  s:  5.952162 
+Iteration:  1000 
+[1] 38
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+
+Attaching package: ‘zoo’
+
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: quadprog
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+Loading required package: Matrix
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+
+Attaching package: ‘zoo’
+
+
+Attaching package: ‘zoo’
+
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+
+Attaching package: ‘zoo’
+
+Loading required package: quadprog
+Loading required package: quadprog
+Loading required package: quadprog
+Loading required package: quadprog
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+Loading required package: glasso
+Loading required package: glasso
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+
+Attaching package: ‘zoo’
+
+Loading required package: quadprog
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: glasso
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Error ra:  0.005296501  rb:  0.001362827  rc:  0.001895211  s:  31.42904 
+Iteration:  1000 
+Error ra:  0.00647191  rb:  0.00149316  rc:  0.002409775  s:  44.24743 
+Iteration:  1000 
+Error ra:  0.006370449  rb:  0.001426227  rc:  0.002377519  s:  46.43764 
+Iteration:  1000 
+Error ra:  0.006340143  rb:  0.00138959  rc:  0.0023593  s:  47.18325 
+Iteration:  1000 
+Error ra:  0.005964906  rb:  0.001500782  rc:  0.002215731  s:  36.47283 
+Iteration:  1000 
+Error ra:  0.006338838  rb:  0.001390557  rc:  0.002359371  s:  47.17179 
+Iteration:  1000 
+Error ra:  0.006339694  rb:  0.001389646  rc:  0.002359101  s:  47.17881 
+Iteration:  1000 
+Error ra:  0.0063405  rb:  0.001389751  rc:  0.002359532  s:  47.18605 
+Iteration:  1000 
+Error ra:  0.00633481  rb:  0.001388473  rc:  0.002357635  s:  47.11512 
+Iteration:  1000 
+Error ra:  0.006328877  rb:  0.00138871  rc:  0.002355811  s:  47.00069 
+Iteration:  1000 
+Error ra:  0.006336806  rb:  0.001388677  rc:  0.002358026  s:  47.14308 
+Iteration:  1000 
+Error ra:  0.006393749  rb:  0.001461992  rc:  0.002392325  s:  45.3204 
+Iteration:  1000 
+Error ra:  0.006319396  rb:  0.00138582  rc:  0.002351262  s:  46.8902 
+Iteration:  1000 
+Error ra:  0.006338001  rb:  0.001391105  rc:  0.002359535  s:  47.16067 
+Iteration:  1000 
+Error ra:  0.00633305  rb:  0.001390622  rc:  0.002357274  s:  47.07071 
+Iteration:  1000 
+Error ra:  0.006119793  rb:  0.001403688  rc:  0.002270356  s:  42.61168 
+Iteration:  1000 
+Error ra:  0.006305024  rb:  0.001383426  rc:  0.00234693  s:  46.71528 
+Iteration:  1000 
+Error ra:  0.005922307  rb:  0.00137006  rc:  0.002184162  s:  40.11857 
+Iteration:  1000 
+Error ra:  0.004587969  rb:  0.001293817  rc:  0.001589553  s:  24.25545 
+Iteration:  1000 
+Error ra:  5.042635e-07  rb:  5.047065e-07  rc:  4.661576e-08  s:  9.790982e-06 
+Iteration:  111 
+Error ra:  0.006246028  rb:  0.001382937  rc:  0.002329298  s:  46.00653 
+Iteration:  1000 
+Error ra:  5.042635e-07  rb:  5.047065e-07  rc:  4.661576e-08  s:  9.790982e-06 
+Iteration:  111 
+Error ra:  4.881728e-07  rb:  4.893238e-07  rc:  4.545111e-08  s:  9.255081e-06 
+Iteration:  113 
+Error ra:  5.711692e-07  rb:  5.748205e-07  rc:  4.513714e-08  s:  8.991103e-06 
+Iteration:  138 
+Error ra:  5.042635e-07  rb:  5.047065e-07  rc:  4.661576e-08  s:  9.790982e-06 
+Iteration:  111 
+Error ra:  5.042635e-07  rb:  5.047065e-07  rc:  4.661576e-08  s:  9.790982e-06 
+Iteration:  111 
+Error ra:  7.780358e-07  rb:  7.95059e-07  rc:  5.762091e-08  s:  9.089016e-06 
+Iteration:  170 
+Error ra:  2.189142e-07  rb:  1.910965e-07  rc:  3.051505e-08  s:  9.854106e-06 
+Iteration:  232 
+Error ra:  8.719487e-07  rb:  8.860919e-07  rc:  9.010343e-08  s:  9.55966e-06 
+Iteration:  215 
+Error ra:  1.330265e-07  rb:  1.111342e-07  rc:  1.47466e-08  s:  9.86598e-06 
+Iteration:  289 
+Error ra:  6.979574e-08  rb:  5.426115e-08  rc:  9.677927e-09  s:  9.80929e-06 
+Iteration:  395 
+Error ra:  3.843112e-08  rb:  2.638692e-08  rc:  6.391991e-09  s:  9.905124e-06 
+Iteration:  526 
+Error ra:  2.351838e-08  rb:  1.491368e-08  rc:  4.683993e-09  s:  9.891149e-06 
+Iteration:  764 
+Error ra:  0.002379269  rb:  0.0007934755  rc:  0.000776033  s:  9.111751 
+Iteration:  1000 
+Error ra:  0.003560104  rb:  0.001079222  rc:  0.001199934  s:  16.66265 
+Iteration:  1000 
+Error ra:  0.0003345598  rb:  0.0001290273  rc:  0.0001015181  s:  0.7409651 
+Iteration:  1000 
+Error ra:  3.640173e-08  rb:  2.057431e-08  rc:  8.640698e-09  s:  2.467201e-05 
+Iteration:  1000 
+Error ra:  2.123435e-06  rb:  1.002675e-06  rc:  5.966592e-07  s:  0.002184035 
+Iteration:  1000 
+Error ra:  0.001135498  rb:  0.0004044422  rc:  0.0003583305  s:  3.400667 
+Iteration:  1000 
+Error ra:  4.173764e-05  rb:  1.730649e-05  rc:  1.23734e-05  s:  0.06483346 
+Iteration:  1000 
+Error ra:  5.042635e-07  rb:  5.047065e-07  rc:  4.661576e-08  s:  9.790982e-06 
+Iteration:  111 
+[1] 39
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+Loading required package: lattice
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: glasso
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Error ra:  0.004722945  rb:  0.001034626  rc:  0.001759268  s:  32.39245 
+Iteration:  1000 
+Error ra:  0.004656396  rb:  0.001025005  rc:  0.001731857  s:  31.56234 
+Iteration:  1000 
+Error ra:  0.004722556  rb:  0.001034527  rc:  0.00175915  s:  32.38931 
+Iteration:  1000 
+Error ra:  0.004725687  rb:  0.001039717  rc:  0.001760712  s:  32.34401 
+Iteration:  1000 
+Error ra:  0.004627565  rb:  0.001025805  rc:  0.001723194  s:  31.08005 
+Iteration:  1000 
+Error ra:  0.003762758  rb:  0.0009532093  rc:  0.001344378  s:  21.38958 
+Iteration:  1000 
+Error ra:  0.004700444  rb:  0.001029835  rc:  0.001750993  s:  32.18561 
+Iteration:  1000 
+Error ra:  0.004338836  rb:  0.001012102  rc:  0.001598345  s:  27.54998 
+Iteration:  1000 
+Error ra:  0.004723183  rb:  0.001034687  rc:  0.001759355  s:  32.39444 
+Iteration:  1000 
+Error ra:  0.004625575  rb:  0.001092627  rc:  0.001699178  s:  29.18092 
+Iteration:  1000 
+Error ra:  0.004719821  rb:  0.001043332  rc:  0.001756789  s:  32.06233 
+Iteration:  1000 
+Error ra:  0.004721282  rb:  0.001035075  rc:  0.001759144  s:  32.36388 
+Iteration:  1000 
+Error ra:  0.003200834  rb:  0.0008876406  rc:  0.001108822  s:  16.47372 
+Iteration:  1000 
+Error ra:  0.004714778  rb:  0.001047127  rc:  0.00176439  s:  32.26363 
+Iteration:  1000 
+Error ra:  0.00415539  rb:  0.001018426  rc:  0.001502009  s:  24.99356 
+Iteration:  1000 
+Error ra:  0.004727841  rb:  0.001049288  rc:  0.001768041  s:  31.86778 
+Iteration:  1000 
+Error ra:  0.004721981  rb:  0.001034402  rc:  0.001758991  s:  32.38432 
+Iteration:  1000 
+Error ra:  0.00472128  rb:  0.001034611  rc:  0.001758952  s:  32.37641 
+Iteration:  1000 
+Error ra:  0.004726239  rb:  0.0010548  rc:  0.001770582  s:  32.31267 
+Iteration:  1000 
+Error ra:  0.004604943  rb:  0.0010446  rc:  0.001710102  s:  30.33279 
+Iteration:  1000 
+Error ra:  4.574403e-07  rb:  4.580894e-07  rc:  4.407718e-08  s:  8.813768e-06 
+Iteration:  114 
+Error ra:  4.574403e-07  rb:  4.580894e-07  rc:  4.407718e-08  s:  8.813768e-06 
+Iteration:  114 
+Error ra:  5.411047e-07  rb:  5.423593e-07  rc:  5.054194e-08  s:  9.995237e-06 
+Iteration:  116 
+Error ra:  4.574403e-07  rb:  4.580894e-07  rc:  4.407718e-08  s:  8.813768e-06 
+Iteration:  114 
+Error ra:  4.574403e-07  rb:  4.580894e-07  rc:  4.407718e-08  s:  8.813768e-06 
+Iteration:  114 
+Error ra:  9.238985e-07  rb:  9.465844e-07  rc:  7.004768e-08  s:  9.995813e-06 
+Iteration:  182 
+Error ra:  9.946874e-07  rb:  1.015482e-06  rc:  1.135421e-07  s:  9.709426e-06 
+Iteration:  229 
+Error ra:  6.589551e-07  rb:  6.624078e-07  rc:  4.551667e-08  s:  9.212003e-06 
+Iteration:  145 
+Error ra:  2.798962e-07  rb:  2.534616e-07  rc:  3.183563e-08  s:  9.911442e-06 
+Iteration:  238 
+Error ra:  1.161058e-07  rb:  9.832439e-08  rc:  1.153299e-08  s:  9.567559e-06 
+Iteration:  304 
+Error ra:  6.309067e-08  rb:  4.966016e-08  rc:  7.670008e-09  s:  9.853768e-06 
+Iteration:  443 
+Error ra:  3.781247e-08  rb:  2.675654e-08  rc:  5.664287e-09  s:  9.756539e-06 
+Iteration:  587 
+Error ra:  2.339037e-08  rb:  1.461402e-08  rc:  4.261603e-09  s:  9.9354e-06 
+Iteration:  787 
+Error ra:  0.001635382  rb:  0.0005485165  rc:  0.0005261601  s:  5.950013 
+Iteration:  1000 
+Error ra:  0.0007585581  rb:  0.0002698831  rc:  0.000238225  s:  2.234564 
+Iteration:  1000 
+Error ra:  0.002476426  rb:  0.000765735  rc:  0.0008214328  s:  10.79931 
+Iteration:  1000 
+Error ra:  4.274575e-08  rb:  2.29681e-08  rc:  9.250489e-09  s:  2.936286e-05 
+Iteration:  1000 
+Error ra:  0.0002139582  rb:  8.49908e-05  rc:  6.275065e-05  s:  0.4435053 
+Iteration:  1000 
+Error ra:  2.990663e-06  rb:  1.42398e-06  rc:  7.473269e-07  s:  0.003197985 
+Iteration:  1000 
+Error ra:  3.792205e-05  rb:  1.618551e-05  rc:  1.069019e-05  s:  0.05762551 
+Iteration:  1000 
+Error ra:  4.574403e-07  rb:  4.580894e-07  rc:  4.407718e-08  s:  8.813768e-06 
+Iteration:  114 
+[1] 40
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: lattice
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: glasso
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+Loading required package: lattice
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+Loading required package: zoo
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: glasso
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+Loading required package: zoo
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: glasso
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Error ra:  0.005486351  rb:  0.001202313  rc:  0.002073156  s:  39.73111 
+Iteration:  1000 
+Error ra:  0.005512801  rb:  0.001226527  rc:  0.002083998  s:  39.42634 
+Iteration:  1000 
+Error ra:  0.005489397  rb:  0.00120311  rc:  0.002075317  s:  39.769 
+Iteration:  1000 
+Error ra:  0.005484118  rb:  0.001235285  rc:  0.002078818  s:  38.81578 
+Iteration:  1000 
+Error ra:  0.005491997  rb:  0.001201234  rc:  0.002074256  s:  39.80805 
+Iteration:  1000 
+Error ra:  0.005061516  rb:  0.001171058  rc:  0.001890201  s:  33.87371 
+Iteration:  1000 
+Error ra:  0.005355681  rb:  0.001217928  rc:  0.002012719  s:  37.35871 
+Iteration:  1000 
+Error ra:  0.005493592  rb:  0.00120125  rc:  0.002074957  s:  39.82741 
+Iteration:  1000 
+Error ra:  0.00548354  rb:  0.001207477  rc:  0.002073098  s:  39.57629 
+Iteration:  1000 
+Error ra:  0.004015857  rb:  0.001142222  rc:  0.001398593  s:  20.4472 
+Iteration:  1000 
+Error ra:  0.00549327  rb:  0.001201169  rc:  0.002074815  s:  39.82361 
+Iteration:  1000 
+Error ra:  0.005480635  rb:  0.001198716  rc:  0.002070559  s:  39.67118 
+Iteration:  1000 
+Error ra:  0.005493786  rb:  0.001201305  rc:  0.002075048  s:  39.8298 
+Iteration:  1000 
+Error ra:  0.005472652  rb:  0.001237324  rc:  0.002081825  s:  39.19137 
+Iteration:  1000 
+Error ra:  0.005278289  rb:  0.001204662  rc:  0.001969892  s:  35.96526 
+Iteration:  1000 
+Error ra:  0.005491542  rb:  0.001201531  rc:  0.002073831  s:  39.79293 
+Iteration:  1000 
+Error ra:  0.005492751  rb:  0.001201056  rc:  0.002074589  s:  39.81759 
+Iteration:  1000 
+Error ra:  0.005591719  rb:  0.001264447  rc:  0.002121711  s:  38.23543 
+Iteration:  1000 
+Error ra:  0.004572748  rb:  0.001222817  rc:  0.001652855  s:  26.30445 
+Iteration:  1000 
+Error ra:  0.004958532  rb:  0.001239413  rc:  0.001864028  s:  30.78915 
+Iteration:  1000 
+Error ra:  4.487273e-07  rb:  4.484877e-07  rc:  4.531766e-08  s:  9.146833e-06 
+Iteration:  109 
+Error ra:  5.530331e-07  rb:  5.593089e-07  rc:  5.258652e-08  s:  9.338732e-06 
+Iteration:  120 
+Error ra:  4.697706e-07  rb:  4.698253e-07  rc:  4.761886e-08  s:  9.538256e-06 
+Iteration:  109 
+Error ra:  4.487273e-07  rb:  4.484877e-07  rc:  4.531766e-08  s:  9.146833e-06 
+Iteration:  109 
+Error ra:  8.798893e-07  rb:  8.886725e-07  rc:  1.095053e-07  s:  9.645127e-06 
+Iteration:  190 
+Error ra:  4.487273e-07  rb:  4.484877e-07  rc:  4.531766e-08  s:  9.146833e-06 
+Iteration:  109 
+Error ra:  7.422078e-07  rb:  7.59191e-07  rc:  6.626271e-08  s:  9.282691e-06 
+Iteration:  147 
+Error ra:  4.487273e-07  rb:  4.484877e-07  rc:  4.531766e-08  s:  9.146833e-06 
+Iteration:  109 
+Error ra:  4.731564e-07  rb:  4.501354e-07  rc:  4.008479e-08  s:  9.238574e-06 
+Iteration:  193 
+Error ra:  1.393684e-07  rb:  1.151946e-07  rc:  1.905526e-08  s:  9.495656e-06 
+Iteration:  227 
+Error ra:  7.685566e-08  rb:  5.690802e-08  rc:  1.431352e-08  s:  9.919766e-06 
+Iteration:  315 
+Error ra:  4.221175e-08  rb:  2.770017e-08  rc:  9.481395e-09  s:  9.670667e-06 
+Iteration:  460 
+Error ra:  2.549117e-08  rb:  1.43604e-08  rc:  6.784618e-09  s:  9.913499e-06 
+Iteration:  655 
+Error ra:  1.610871e-08  rb:  8.048278e-09  rc:  4.684881e-09  s:  9.970889e-06 
+Iteration:  927 
+Error ra:  2.671902e-05  rb:  1.095707e-05  rc:  7.85163e-06  s:  0.0388316 
+Iteration:  1000 
+Error ra:  0.003071145  rb:  0.0009252128  rc:  0.001052516  s:  13.91767 
+Iteration:  1000 
+Error ra:  0.0009244163  rb:  0.0003142415  rc:  0.0003016381  s:  2.781831 
+Iteration:  1000 
+Error ra:  0.002011433  rb:  0.0006733444  rc:  0.0006605691  s:  7.416755 
+Iteration:  1000 
+Error ra:  6.45155e-07  rb:  2.891967e-07  rc:  1.85194e-07  s:  0.0006204265 
+Iteration:  1000 
+Error ra:  0.0002455662  rb:  9.221784e-05  rc:  7.625486e-05  s:  0.5360857 
+Iteration:  1000 
+Error ra:  4.487273e-07  rb:  4.484877e-07  rc:  4.531766e-08  s:  9.146833e-06 
+Iteration:  109 
+[1] 41
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+
+Attaching package: ‘zoo’
+
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: quadprog
+Loading required package: quadprog
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+Loading required package: lattice
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: glasso
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Error ra:  0.004825131  rb:  0.001059154  rc:  0.00183698  s:  32.79204 
+Iteration:  1000 
+Error ra:  0.003360995  rb:  0.0009393585  rc:  0.001235298  s:  16.57026 
+Iteration:  1000 
+Error ra:  0.00465397  rb:  0.001049467  rc:  0.001771802  s:  30.68027 
+Iteration:  1000 
+Error ra:  0.00482595  rb:  0.001059382  rc:  0.0018373  s:  32.80026 
+Iteration:  1000 
+Error ra:  0.005277656  rb:  0.001261876  rc:  0.0021004  s:  27.64734 
+Iteration:  1000 
+Error ra:  0.004865606  rb:  0.001094482  rc:  0.001858621  s:  32.46189 
+Iteration:  1000 
+Error ra:  0.004824416  rb:  0.001060373  rc:  0.001836111  s:  32.75826 
+Iteration:  1000 
+Error ra:  0.003900021  rb:  0.00102466  rc:  0.001431103  s:  21.3432 
+Iteration:  1000 
+Error ra:  0.00445147  rb:  0.001115598  rc:  0.001637237  s:  25.04024 
+Iteration:  1000 
+Error ra:  0.004784583  rb:  0.001076769  rc:  0.001818501  s:  31.44394 
+Iteration:  1000 
+Error ra:  0.004824157  rb:  0.00105958  rc:  0.001836749  s:  32.779 
+Iteration:  1000 
+Error ra:  0.004826442  rb:  0.001059471  rc:  0.001837435  s:  32.80544 
+Iteration:  1000 
+Error ra:  0.004826709  rb:  0.00106007  rc:  0.001837839  s:  32.80868 
+Iteration:  1000 
+Error ra:  4.879533e-07  rb:  4.881801e-07  rc:  4.785329e-08  s:  9.564594e-06 
+Iteration:  110 
+Error ra:  0.004802237  rb:  0.001083004  rc:  0.001834078  s:  31.94129 
+Iteration:  1000 
+Error ra:  0.00454666  rb:  0.00103699  rc:  0.001719695  s:  29.46734 
+Iteration:  1000 
+Error ra:  0.004821428  rb:  0.001058947  rc:  0.001835343  s:  32.72556 
+Iteration:  1000 
+Error ra:  0.004821982  rb:  0.0010712  rc:  0.001842176  s:  32.67348 
+Iteration:  1000 
+Error ra:  0.004826924  rb:  0.001059888  rc:  0.0018378  s:  32.81075 
+Iteration:  1000 
+Error ra:  0.004818111  rb:  0.001060701  rc:  0.001835597  s:  32.59197 
+Iteration:  1000 
+Error ra:  4.879533e-07  rb:  4.881801e-07  rc:  4.785329e-08  s:  9.564594e-06 
+Iteration:  110 
+Error ra:  6.422266e-07  rb:  6.504126e-07  rc:  4.837477e-08  s:  9.666934e-06 
+Iteration:  127 
+Error ra:  0.00484032  rb:  0.0010833  rc:  0.001837156  s:  32.2596 
+Iteration:  1000 
+Error ra:  4.879533e-07  rb:  4.881801e-07  rc:  4.785329e-08  s:  9.564594e-06 
+Iteration:  110 
+Error ra:  4.879533e-07  rb:  4.881801e-07  rc:  4.785329e-08  s:  9.564594e-06 
+Iteration:  110 
+Error ra:  4.60032e-07  rb:  4.602532e-07  rc:  4.477112e-08  s:  8.950326e-06 
+Iteration:  111 
+Error ra:  9.029484e-07  rb:  9.293919e-07  rc:  6.307551e-08  s:  9.949196e-06 
+Iteration:  163 
+Error ra:  7.956624e-07  rb:  8.063812e-07  rc:  8.235935e-08  s:  9.327084e-06 
+Iteration:  202 
+Error ra:  1.164971e-07  rb:  9.686071e-08  rc:  1.422258e-08  s:  9.97326e-06 
+Iteration:  301 
+Error ra:  3.040412e-07  rb:  2.808164e-07  rc:  3.287561e-08  s:  9.732821e-06 
+Iteration:  223 
+Error ra:  6.690839e-08  rb:  5.087576e-08  rc:  9.938441e-09  s:  9.620615e-06 
+Iteration:  395 
+Error ra:  3.801962e-08  rb:  2.574502e-08  rc:  6.784899e-09  s:  9.729848e-06 
+Iteration:  555 
+Error ra:  2.377344e-08  rb:  1.392151e-08  rc:  5.03394e-09  s:  9.998359e-06 
+Iteration:  759 
+Error ra:  2.041775e-05  rb:  8.395435e-06  rc:  6.246162e-06  s:  0.02911571 
+Iteration:  1000 
+Error ra:  0.0001821093  rb:  6.725242e-05  rc:  5.881907e-05  s:  0.3779611 
+Iteration:  1000 
+Error ra:  0.0007396037  rb:  0.0002548041  rc:  0.0002437237  s:  2.100491 
+Iteration:  1000 
+Error ra:  0.001623518  rb:  0.0005320728  rc:  0.0005430704  s:  5.791696 
+Iteration:  1000 
+Error ra:  1.056202e-06  rb:  4.839396e-07  rc:  2.95103e-07  s:  0.001044408 
+Iteration:  1000 
+Error ra:  2.079718e-08  rb:  1.061666e-08  rc:  5.133258e-09  s:  1.366102e-05 
+Iteration:  1000 
+Error ra:  0.002505094  rb:  0.0007427131  rc:  0.000868805  s:  11.00717 
+Iteration:  1000 
+Error ra:  4.879533e-07  rb:  4.881801e-07  rc:  4.785329e-08  s:  9.564594e-06 
+Iteration:  110 
+[1] 42
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: lattice
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+Loading required package: Matrix
+Loading required package: zoo
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+Loading required package: Matrix
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: glasso
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Error ra:  0.006377474  rb:  0.001410272  rc:  0.002436449  s:  50.34101 
+Iteration:  1000 
+Error ra:  0.006413899  rb:  0.001521859  rc:  0.002480303  s:  47.54698 
+Iteration:  1000 
+Error ra:  0.006362624  rb:  0.001386645  rc:  0.002423544  s:  50.46059 
+Iteration:  1000 
+Error ra:  0.006509459  rb:  0.00146872  rc:  0.002483156  s:  48.61877 
+Iteration:  1000 
+Error ra:  0.006362868  rb:  0.001386268  rc:  0.002424269  s:  50.50796 
+Iteration:  1000 
+Error ra:  0.006362698  rb:  0.00138474  rc:  0.00242286  s:  50.48965 
+Iteration:  1000 
+Error ra:  0.006013922  rb:  0.001500206  rc:  0.002243276  s:  39.5212 
+Iteration:  1000 
+Error ra:  0.006380052  rb:  0.001395424  rc:  0.002434296  s:  50.22705 
+Iteration:  1000 
+Error ra:  0.006363753  rb:  0.001385425  rc:  0.002423493  s:  50.5195 
+Iteration:  1000 
+Error ra:  0.006364935  rb:  0.001385671  rc:  0.002424395  s:  50.53138 
+Iteration:  1000 
+Error ra:  0.006370833  rb:  0.001549592  rc:  0.002421886  s:  43.29297 
+Iteration:  1000 
+Error ra:  0.006342055  rb:  0.001418669  rc:  0.002434734  s:  49.31131 
+Iteration:  1000 
+Error ra:  0.006365198  rb:  0.001385487  rc:  0.002424348  s:  50.53428 
+Iteration:  1000 
+Error ra:  0.006364574  rb:  0.00138533  rc:  0.002423802  s:  50.52679 
+Iteration:  1000 
+Error ra:  0.006341609  rb:  0.001383077  rc:  0.002416343  s:  49.7629 
+Iteration:  1000 
+Error ra:  0.005875523  rb:  0.001530062  rc:  0.002228519  s:  34.04997 
+Iteration:  1000 
+Error ra:  0.006370344  rb:  0.001391048  rc:  0.002428829  s:  50.04701 
+Iteration:  1000 
+Error ra:  0.006363314  rb:  0.001387519  rc:  0.002423638  s:  50.41458 
+Iteration:  1000 
+Error ra:  0.004549266  rb:  0.001203175  rc:  0.001651294  s:  26.90929 
+Iteration:  1000 
+Error ra:  0.006164147  rb:  0.001394243  rc:  0.002341955  s:  45.85451 
+Iteration:  1000 
+Error ra:  6.393891e-07  rb:  6.419264e-07  rc:  3.900251e-08  s:  8.986835e-06 
+Iteration:  135 
+Error ra:  4.919157e-07  rb:  4.931526e-07  rc:  4.877001e-08  s:  9.78885e-06 
+Iteration:  110 
+Error ra:  4.919157e-07  rb:  4.931526e-07  rc:  4.877001e-08  s:  9.78885e-06 
+Iteration:  110 
+Error ra:  4.919157e-07  rb:  4.931526e-07  rc:  4.877001e-08  s:  9.78885e-06 
+Iteration:  110 
+Error ra:  7.719243e-07  rb:  7.847875e-07  rc:  5.486986e-08  s:  9.486219e-06 
+Iteration:  174 
+Error ra:  4.806906e-07  rb:  4.819554e-07  rc:  4.755166e-08  s:  9.481464e-06 
+Iteration:  111 
+Error ra:  4.919157e-07  rb:  4.931526e-07  rc:  4.877001e-08  s:  9.78885e-06 
+Iteration:  110 
+Error ra:  7.943773e-07  rb:  7.917927e-07  rc:  7.102047e-08  s:  9.79245e-06 
+Iteration:  212 
+Error ra:  2.640694e-07  rb:  2.376811e-07  rc:  3.136128e-08  s:  9.919458e-06 
+Iteration:  228 
+Error ra:  1.167183e-07  rb:  9.616924e-08  rc:  1.521843e-08  s:  9.897151e-06 
+Iteration:  289 
+Error ra:  6.360063e-08  rb:  4.751104e-08  rc:  9.982395e-09  s:  9.656586e-06 
+Iteration:  367 
+Error ra:  3.810895e-08  rb:  2.563619e-08  rc:  7.071761e-09  s:  9.867975e-06 
+Iteration:  518 
+Error ra:  2.297416e-08  rb:  1.385874e-08  rc:  5.095894e-09  s:  9.959558e-06 
+Iteration:  752 
+Error ra:  2.534135e-08  rb:  1.343238e-08  rc:  6.337483e-09  s:  1.697424e-05 
+Iteration:  1000 
+Error ra:  3.193294e-05  rb:  1.338363e-05  rc:  9.568121e-06  s:  0.04751099 
+Iteration:  1000 
+Error ra:  0.000348491  rb:  0.0001303869  rc:  0.0001131703  s:  0.7841777 
+Iteration:  1000 
+Error ra:  0.003780219  rb:  0.001122164  rc:  0.001321787  s:  18.2332 
+Iteration:  1000 
+Error ra:  0.002672913  rb:  0.0008845118  rc:  0.0009038152  s:  10.11839 
+Iteration:  1000 
+Error ra:  0.001199484  rb:  0.000424829  rc:  0.0003934783  s:  3.672623 
+Iteration:  1000 
+Error ra:  1.426048e-06  rb:  6.645287e-07  rc:  3.985424e-07  s:  0.001430616 
+Iteration:  1000 
+Error ra:  4.919157e-07  rb:  4.931526e-07  rc:  4.877001e-08  s:  9.78885e-06 
+Iteration:  110 
+[1] 43
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: glasso
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: glasso
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: glasso
+Loading required package: quadprog
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: lattice
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: zoo
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: Matrix
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: Matrix
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+Loading required package: glasso
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: lattice
+Loading required package: lattice
+Loading required package: zoo
+Loading required package: glasso
+Loading required package: lattice
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: Matrix
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: zoo
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: glasso
+Loading required package: quadprog
+
+Attaching package: ‘zoo’
+
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: quadprog
+Loading required package: quadprog
+Loading required package: glasso
+Loading required package: glasso
+Loading required package: glasso
+=>> PBS: job killed: walltime 14417 exceeded limit 14400
+
+Epilogue Args:
+Job ID: 258587[20].trcis002.hpc.wvu.edu
+User ID: bprice5
+Group ID: its-rc-thorny
+Job Name: R_JOB-20
+Session ID: 6081
+Resource List: nodes=1:ppn=40,prologue=/users/bprice5/prologue.sh,epilogue=/users/bprice5/epilogue.sh,neednodes=1:ppn=40,walltime=04:00:00
+Resources Used: cput=152:12:00,vmem=20956228kb,walltime=04:00:27,mem=10874144kb,energy_used=0
+Queue Name: standby
+Account String: bprice5
+
+_=/bin/env
+LANG=en_US.utf8
+PATH=/bin:/usr/bin
+PBS_MSHOST=tsacs001.hpc.wvu.edu
+PBS_NODEFILE=/var/spool/torque/aux//258587[20].trcis002.hpc.wvu.edu
+PBS_NODENUM=0
+PBS_NP=40
+PBS_NUM_NODES=1
+PBS_NUM_PPN=40
+PBS_O_WORKDIR=/gpfs20/scratch/bprice5/graph_sim
+PBS_RESOURCE_NODES=1:ppn=40
+PWD=/gpfs20/users/bprice5
+SHLVL=1
+tsacs001.hpc.wvu.edu
+Wed Jun 17 21:39:02 EDT 2020

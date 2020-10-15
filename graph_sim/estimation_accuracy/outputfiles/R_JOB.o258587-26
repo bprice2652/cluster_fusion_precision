@@ -1,0 +1,99 @@
+
+Prologue Args:
+Job ID: 258587[26].trcis002.hpc.wvu.edu
+User ID: bprice5
+Group ID: its-rc-thorny
+
+_=/bin/env
+LANG=en_US.utf8
+PATH=/bin:/usr/bin
+PBS_MSHOST=tbmcs004.hpc.wvu.edu
+PBS_NODEFILE=/var/spool/torque/aux//258587[26].trcis002.hpc.wvu.edu
+PBS_NODENUM=0
+PBS_NP=40
+PBS_NUM_NODES=1
+PBS_NUM_PPN=40
+PBS_O_WORKDIR=/gpfs20/scratch/bprice5/graph_sim
+PBS_RESOURCE_NODES=1:ppn=40
+PWD=/gpfs20/users/bprice5
+SHLVL=1
+tbmcs004.hpc.wvu.edu
+Wed Jun 17 19:13:41 EDT 2020
+-d 50 -l 0.001 -m PCEN-3 -s 1
+Loading required package: mvtnorm
+Loading required package: igraph
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+Loading required package: blockmodels
+Loading required package: Rcpp
+Loading required package: digest
+
+----------------------------------------------------------------------
+
+      'simone' package version 1.0-3
+      SIMoNe page (http://julien.cremeriefamily.info/simone.html)
+
+----------------------------------------------------------------------
+Note that versions >= 1.0-0 are not compatible with versions < 1.0.0. 
+----------------------------------------------------------------------
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 42
+[1] 43
+[1] 44
+[1] 45
+[1] 46
+[1] 47
+[1] 48
+[1] 49
+[1] 50
+
+Epilogue Args:
+Job ID: 258587[26].trcis002.hpc.wvu.edu
+User ID: bprice5
+Group ID: its-rc-thorny
+Job Name: R_JOB-26
+Session ID: 40954
+Resource List: nodes=1:ppn=40,prologue=/users/bprice5/prologue.sh,epilogue=/users/bprice5/epilogue.sh,neednodes=1:ppn=40,walltime=04:00:00
+Resources Used: cput=09:22:54,vmem=12823952kb,walltime=00:27:09,mem=4906092kb,energy_used=0
+Queue Name: standby
+Account String: bprice5
+
+_=/bin/env
+LANG=en_US.utf8
+PATH=/bin:/usr/bin
+PBS_MSHOST=tbmcs004.hpc.wvu.edu
+PBS_NODEFILE=/var/spool/torque/aux//258587[26].trcis002.hpc.wvu.edu
+PBS_NODENUM=0
+PBS_NP=40
+PBS_NUM_NODES=1
+PBS_NUM_PPN=40
+PBS_O_WORKDIR=/gpfs20/scratch/bprice5/graph_sim
+PBS_RESOURCE_NODES=1:ppn=40
+PWD=/gpfs20/users/bprice5
+SHLVL=1
+tbmcs004.hpc.wvu.edu
+Wed Jun 17 19:40:50 EDT 2020

@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#PBS -N R_JOB
+#PBS -q standby
+#PBS -j oe
+#PBS -l nodes=1:ppn=40
+#PBS -n
+#PBS -M noemail@hpc.wvu.edu
+#PBS -l prologue=/users/bprice5/prologue.sh
+#PBS -l epilogue=/users/bprice5/epilogue.sh
+#PBS -t 1-96
+
+cd $PBS_O_WORKDIR
+#module load general_intel19
+module load lang/gcc/8.2.0 lang/java/jdk1.8.0_201 libs/openblas/0.3.7_gcc82 lang/r/3.5.2
+
+export OPENBLAS_NUM_THREADS=4
+
+input=`cat newgraphsim4.txt| head -$PBS_ARRAYID | tail -1`
+
+
+echo $input
+
+./graph_sim5a.R $input
